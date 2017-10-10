@@ -1,19 +1,20 @@
 # load both files
+setwd('~/development/forms')
 live <- read.csv('./all-live-forms-file-list.csv', stringsAsFactors = F)
 master <- read.csv('./form-analysis-master.csv', stringsAsFactors = F)
 
 # file names from G drive (live) need formatting
-live.names <- live$name
-live.names <- sapply(strsplit(live.names,"\\-"), `[`, 1)
+live.names <- tolower(live$name)
+
+# split on last hyphen DOESN'T QUITE WORK
+pattern <- '\\-(?=[^\\-]+$)'
+live.names <- sapply(strsplit(live.names, pattern, perl = TRUE), `[`, 1)
 # those from the list prepped by MC are fine
-master.names <- master$Form.name.1
+master.names <- tolower(master$Form.name.1)
+# remove troublesome characters from master.names which have no meaning
+master.names <- gsub("\\*", "", master.names)
 
-# convert all letters to lower case because case varies
-# but is assumed to have no meaning
-live.names <- sapply(live.names, tolower)
-master.names <- sapply(master.names, tolower)
-
-# get items present in both lis
+# get items present in both lists
 common.names <- intersect(live.names, master.names)
 
 # there are approximately 1500 forms live that are not found
@@ -28,4 +29,3 @@ live.only <- setdiff(live.names, master.names)
 # combine unique entries
 all.names <- union(live.names, master.names)
 write.csv(all.names, file = './all-form-names.csv')
-
