@@ -13,7 +13,6 @@ master.names <- gsub("\\*", "", master.names)
 common.names <- intersect(live.names, master.names)
 
 # there are approximately 1500 forms live that are not found
-# in the master list - comparison could be IMPROVED
 length(common.names)
 length(live.names)
 length(master.names)
@@ -28,4 +27,3 @@ longer_than_two_chars <- sapply(all.names, function(x) nchar(x) > 2)
 all.names <- all.names[longer_than_two_chars]
 # save the list
 write.csv(all.names, file = './all-form-names.csv')
-
