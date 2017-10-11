@@ -10,6 +10,8 @@ setwd('~/development/forms/all-live-forms-extracted/')
 
 # load data
 file.names <- dir('.', pattern =".txt")
+pattern <- '\\-(?=[^\\-]+$)'
+self.references <- sapply(strsplit(file.names, pattern, perl = TRUE), `[`, 1)
 form.references <- read_csv('../all-form-names.csv')$x
 
 # create an empty list for dependencies
@@ -19,8 +21,9 @@ all.dependencies <- list()
 for(i in 1:length(file.names)){
   if(i %% 100 == 0) print(i)
   filename <- file.names[i]
-  txt      <- tolower(read_file(filename))
-  filter   <- sapply(form.references, function(x) grepl(x, txt))
+  self.reference <- self.references[i]
+  txt      <- tolower(read_file(filename)) %>% gsub(., pattern = ' ', replacement = '')
+  filter   <- sapply(form.references, function(x) grepl(x, txt) & x != self.reference)
   file.dependencies <- form.references[filter]
   if(length(file.dependencies) == 0) {
     file.dependencies <- c('none detected')

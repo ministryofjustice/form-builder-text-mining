@@ -1,15 +1,10 @@
+library(tidyverse)
 # load both files
 setwd('~/development/forms')
 live <- read.csv('./all-live-forms-file-list.csv', stringsAsFactors = F)
+live.names <- live$name
+
 master <- read.csv('./form-analysis-master.csv', stringsAsFactors = F)
-
-# file names from G drive (live) need formatting
-live.names <- tolower(live$name)
-
-# split on last hyphen DOESN'T QUITE WORK
-pattern <- '\\-(?=[^\\-]+$)'
-live.names <- sapply(strsplit(live.names, pattern, perl = TRUE), `[`, 1)
-# those from the list prepped by MC are fine
 master.names <- tolower(master$Form.name.1)
 # remove troublesome characters from master.names which have no meaning
 master.names <- gsub("\\*", "", master.names)
@@ -28,4 +23,9 @@ live.only <- setdiff(live.names, master.names)
 
 # combine unique entries
 all.names <- union(live.names, master.names)
+# remove form codes that may generate false positives
+longer_than_two_chars <- sapply(all.names, function(x) nchar(x) > 2)
+all.names <- all.names[longer_than_two_chars]
+# save the list
 write.csv(all.names, file = './all-form-names.csv')
+
