@@ -1,5 +1,5 @@
-/all-live-forms-extracted/
-/all-live-forms-originals/
+/live_forms_extracted/
+/live_forms/
 .Rhistory
 .ipynb_checkpoints
 .Rproj.user

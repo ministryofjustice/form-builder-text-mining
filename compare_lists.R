@@ -1,11 +1,13 @@
 library(tidyverse)
-# load both files
+
 setwd('~/development/forms')
-live <- read.csv('./all-live-forms-file-list.csv', stringsAsFactors = F)
+
+live <- read.csv('./live_forms_file_list.csv', stringsAsFactors = F)
 live.names <- live$name
 
-master <- read.csv('./form-analysis-master.csv', stringsAsFactors = F)
+master <- read.csv('./form_analysis_master.csv', stringsAsFactors = F)
 master.names <- tolower(master$Form.name.1)
+
 # remove troublesome characters from master.names which have no meaning
 master.names <- gsub("\\*", "", master.names)
 
@@ -26,4 +28,4 @@ all.names <- union(live.names, master.names)
 longer_than_two_chars <- sapply(all.names, function(x) nchar(x) > 2)
 all.names <- all.names[longer_than_two_chars]
 # save the list
-write.csv(all.names, file = './all-form-names.csv')
+write.csv(all.names, file = './all_form_names.csv')

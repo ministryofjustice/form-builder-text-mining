@@ -4,15 +4,14 @@ library(tibble)
 library(tidyverse)
 library(readr)
 
-# set path and working dir
-path = "./all-live-forms-extracted/"
-setwd('~/development/forms/all-live-forms-extracted/')
+path = "./live_forms_extracted/"
+setwd('~/development/forms/live_forms_extracted/')
 
 # load data
 file.names <- dir('.', pattern =".txt")
 pattern <- '\\-(?=[^\\-]+$)'
 self.references <- sapply(strsplit(file.names, pattern, perl = TRUE), `[`, 1)
-form.references <- read_csv('../all-form-names.csv')$x
+form.references <- read_csv('../all_form_names.csv')$x
 
 # create an empty list for dependencies
 all.dependencies <- list()
@@ -31,4 +30,4 @@ for(i in 1:length(file.names)){
   all.dependencies <- append(all.dependencies, list(file.dependencies))
 }
 deps.df <- data.frame(form = file.names, dependencies = I(all.dependencies))
-write_excel_csv(deps.df, '../deps-xl.csv')
+write_excel_csv(deps.df, '../deps_xl.csv')
