@@ -3,6 +3,7 @@ library(stringr)
 library(tibble)
 library(tidyverse)
 library(readr)
+library(hunspell)
 
 path = "./live_forms_extracted/"
 setwd('~/development/forms/live_forms_extracted/')
@@ -20,14 +21,29 @@ all.dependencies <- list()
 for(i in 1:length(file.names)){
   if(i %% 100 == 0) print(i)
   filename <- file.names[i]
-  self.reference <- self.references[i]
-  txt      <- tolower(read_file(filename)) %>% gsub(., pattern = ' ', replacement = '')
-  filter   <- sapply(form.references, function(x) grepl(x, txt) & x != self.reference)
+  self.reference <- str_replace_all(self.references[i], '-', ' ')
+  txt      <- tolower(read_file(filename))
+  filter   <- sapply(
+    form.references, function(x) {
+      x <- str_replace_all(x, '\\(', '\\\\(')
+      x <- str_replace_all(x, '\\)', '\\\\)')
+      x <- str_replace_all(x, '-', ' ')
+      if (x == 'fee account') {
+        x <- 'fee account(?! no)'
+      }
+      pattern <- paste0('(^|\\W)', x, '($|\\W)')
+      
+      grepl(pattern, txt, perl = T) &
+        x != self.reference &
+        hunspell_check(x, dict = dictionary('en_US')) == FALSE
+    })
   file.dependencies <- form.references[filter]
+  
   if(length(file.dependencies) == 0) {
     file.dependencies <- c('none detected')
   }
   all.dependencies <- append(all.dependencies, list(file.dependencies))
 }
+
 deps.df <- data.frame(form = file.names, dependencies = I(all.dependencies))
 write_excel_csv(deps.df, '../deps_xl.csv')
