@@ -1,13 +1,13 @@
 ﻿form,dependencies
 5050a-eng_doc.txt,none detected
-5050a-eng.txt,5050
+5050a-eng.txt,none detected
 5138-cym_doc.txt,none detected
 5138-eng_doc.txt,none detected
 5222-cym.txt,"c(""lwfansau"", ""gwys-rheithgor"")"
-5222-eng.txt,"c(""juror-charter"", ""jury-summons-form"", ""costs"", ""allowances"")"
+5222-eng.txt,"c(""juror-charter"", ""jury-summons-form"")"
 5222a-bil.txt,juror-charter
 5222a-eng.txt,juror-charter
-a-e-eng.txt,"c(""costs"", ""allowances"")"
+a-e-eng.txt,none detected
 a1-cym.txt,none detected
 a1-eng.txt,form-a1
 a100-eng.txt,none detected
@@ -24,18 +24,18 @@ a2-eng.txt,form-a2
 a20-bil.txt,none detected
 a20-cym.txt,"c(""ex160a"", ""ex50"", ""cb4"", ""cb1"", ""a58"", ""a21"")"
 a20-eng.txt,"c(""ex160a"", ""ex50"", ""cb4"", ""cb1"", ""a58"", ""a21"")"
-a20(1)-cym.txt,a20
-a20(1)-eng.txt,a20
+a20(1)-cym.txt,"c(""a20"", ""a20(1)"")"
+a20(1)-eng.txt,"c(""a20"", ""a20(1)"")"
 a21-cym.txt,"c(""ex160a"", ""ex50"", ""a59"")"
 a21-eng.txt,"c(""ex160a"", ""ex50"", ""a59"")"
 a4-eng.txt,none detected
 a5-eng.txt,none detected
 a50-bil.txt,none detected
-a50-eng.txt,fee-account
+a50-eng.txt,none detected
 a50-nodiadau-a50-notes-bil.txt,none detected
 a50-notes-eng.txt,"c(""a65"", ""a50"")"
 a51-bil.txt,none detected
-a51-eng.txt,fee-account
+a51-eng.txt,none detected
 a51-nodiadau-a51-notes-bil.txt,none detected
 a51-notes-eng.txt,"c(""ex160a"", ""ex50"", ""a51"")"
 a52-bil.txt,none detected
@@ -43,51 +43,51 @@ a52-eng.txt,none detected
 a52-nodiadau-a52-notes-bil.txt,"c(""a65"", ""a52-notes"", ""a52"", ""a52 notes"")"
 a52-notes-eng.txt,"c(""ex160a"", ""ex50"")"
 a53-bil.txt,none detected
-a53-eng.txt,fee-account
+a53-eng.txt,none detected
 a53-nodiadau-a53-notes-bil.txt,"c(""fp2"", ""a65"", ""a53"", ""a53-notes"", ""a53 notes"")"
 a53-notes-eng.txt,"c(""fp2"", ""a53"")"
 a54-bil.txt,none detected
 a54-eng.txt,none detected
 a54-nodiadau-a54-notes-bil.txt,none detected
 a54-notes-eng.txt,a54
-a55-bil.txt,fee-account
-a55-eng.txt,fee-account
+a55-bil.txt,none detected
+a55-eng.txt,none detected
 a55-nodiadau-a55-notes-bil.txt,none detected
 a55-notes-eng.txt,"c(""ex160a"", ""ex50"", ""a55"")"
-a56-bil.txt,fee-account
-a56-eng.txt,fee-account
+a56-bil.txt,none detected
+a56-eng.txt,none detected
 a56-nodiadau-a56-notes-bil.txt,a56
 a56-notes-eng.txt,a56
 a57-bil.txt,a65
-a57-eng.txt,fee-account
+a57-eng.txt,none detected
 a57-nodiadau-a57-notes-bil.txt,"c(""a65"", ""a57-notes"", ""a57"", ""a57 notes"")"
 a57-notes-eng.txt,a57
-a58-bil.txt,"c(""fee-account"", ""ex160a"", ""a60"", ""a59"")"
-a58-eng.txt,"c(""fee-account"", ""ex160"", ""a60"", ""a59"")"
+a58-bil.txt,"c(""ex160a"", ""a60"", ""a59"")"
+a58-eng.txt,"c(""ex160"", ""a60"", ""a59"")"
 a58-nodiadau-a58-notes-bil.txt,"c(""a60"", ""a59"", ""a58"", ""a58-notes"", ""a58 notes"")"
-a58-notes-eng.txt,"c(""ex160"", ""ex50"", ""costs"", ""a60"", ""a59"", ""a58"", ""a58 notes"")"
+a58-notes-eng.txt,"c(""ex160"", ""ex50"", ""a60"", ""a59"", ""a58"")"
 a59-bil.txt,none detected
 a59-eng.txt,a61
 a59-nodiadau-a59-notes-bil.txt,"c(""a61"", ""a59"")"
-a59-notes-eng.txt,"c(""a61"", ""a59"", ""a59 notes"")"
+a59-notes-eng.txt,"c(""a61"", ""a59"")"
 a60-bil.txt,"c(""ex160a"", ""a61"")"
 a60-eng.txt,a61
 a60-nodiadau-a60-notes-bil.txt,"c(""a60"", ""a60-notes"", ""a60 notes"")"
-a60-notes-eng.txt,"c(""a60"", ""a60 notes"")"
+a60-notes-eng.txt,a60
 a61-bil.txt,none detected
 a61-eng.txt,none detected
 a61-nodiadau-a61-notes-bil.txt,"c(""a61"", ""a61-notes"", ""a61 notes"")"
 a61-notes-eng.txt,a61
 a62-bil.txt,none detected
-a62-eng.txt,fee-account
+a62-eng.txt,none detected
 a62-nodiadau-a62-notes-bil.txt,none detected
 a62-notes-eng.txt,a62
 a63-bil.txt,none detected
-a63-eng.txt,fee-account
+a63-eng.txt,none detected
 a63-nodiadau-a63-notes-bil.txt,none detected
 a63-notes-eng.txt,"c(""ex50"", ""a63"")"
 a64-bil.txt,none detected
-a64-eng.txt,fee-account
+a64-eng.txt,none detected
 a64a-bil.txt,none detected
 a64a-eng.txt,none detected
 a65-bil.txt,none detected
@@ -109,22 +109,22 @@ adm10-eng.txt,none detected
 adm11-eng.txt,none detected
 adm12-eng.txt,none detected
 adm12a-eng.txt,none detected
-adm13-eng.txt,"c(""costs"", ""adm14"")"
+adm13-eng.txt,adm14
 adm14-eng.txt,none detected
 adm15-eng.txt,none detected
 adm15b-eng.txt,"c(""adm16"", ""adm16a"")"
 adm16-eng.txt,none detected
 adm16a-eng.txt,none detected
-adm17-eng.txt,costs
-adm17a-eng.txt,costs
-adm18-eng.txt,costs
-adm19-eng.txt,costs
+adm17-eng.txt,none detected
+adm17a-eng.txt,none detected
+adm18-eng.txt,none detected
+adm19-eng.txt,none detected
 adm1a-eng.txt,none detected
-adm1c-cym.txt,"c(""costs"", ""adm2"")"
+adm1c-cym.txt,adm2
 adm1c-eng.txt,none detected
 adm2-cym.txt,none detected
 adm2-eng.txt,none detected
-adm20-eng.txt,costs
+adm20-eng.txt,none detected
 adm21-eng.txt,none detected
 adm3-eng.txt,none detected
 adm4-eng.txt,none detected
@@ -141,13 +141,13 @@ aj24-eng.txt,none detected
 aj25-cym.txt,none detected
 aj26-cym.txt,none detected
 aj26-eng.txt,none detected
-allowances-eng.txt,costs
+allowances-eng.txt,none detected
 application-for-anonymity-(iat)-eng_doc.txt,none detected
 application-for-anonymity-(utiac)-eng_doc.txt,none detected
 application-for-anonymity-(utiac)-eng.txt,none detected
 application-for-anonymity-notes-(iat)-eng.txt,none detected
 application-for-anonymity-notes-(utiac)-eng.txt,none detected
-attachment-of-earnings-orders-for-criminal-fines-national-pilot-april-2004-eng.txt,costs
+attachment-of-earnings-orders-for-criminal-fines-national-pilot-april-2004-eng.txt,none detected
 b1-eng_doc.txt,none detected
 bank-1-eng_doc.txt,none detected
 bank-2-eng_doc.txt,none detected
@@ -157,23 +157,23 @@ bank-5-eng_doc.txt,none detected
 bank-6-eng_doc.txt,none detected
 bank-7-eng_doc.txt,none detected
 bank-8-eng_doc.txt,none detected
-bill-of-costs-(scco)-eng.txt,"c(""scco"", ""n258c"", ""n210"", ""n208"", ""ex340"", ""costs"")"
+bill-of-costs-(scco)-eng.txt,"c(""scco"", ""n258c"", ""n210"", ""n208"", ""ex340"")"
 c(pra1)-bil.txt,none detected
-c(pra1)-eng.txt,none detected
+c(pra1)-eng.txt,c(pra1)
 c(pra2)-bil.txt,none detected
-c(pra2)-eng.txt,none detected
+c(pra2)-eng.txt,c(pra2)
 c(pra3)-bil.txt,none detected
-c(pra3)-eng.txt,none detected
+c(pra3)-eng.txt,c(pra3)
 c1-bil.txt,"c(""cb1"", ""c100"", ""c110"", ""c79"", ""c19"", ""c17"", ""c15"", ""c11"", ""c13"")"
 c1-cym.txt,none detected
 c1-eng.txt,"c(""fm1"", ""cb1"", ""c100"", ""c79"")"
-c100-bil.txt,"c(""fee-account"", ""ex50"", ""cb7"", ""cb1"", ""c79"", ""c1a"")"
-c100-eng.txt,"c(""fee-account"", ""ex50"", ""cb7"", ""cb1"", ""c79"", ""c1a"")"
+c100-bil.txt,"c(""ex50"", ""cb7"", ""cb1"", ""c79"", ""c1a"")"
+c100-eng.txt,"c(""ex50"", ""cb7"", ""cb1"", ""c79"", ""c1a"")"
 c11-bil.txt,none detected
 c110-bil.txt,none detected
-c110-eng.txt,fee-account
+c110-eng.txt,none detected
 c110a-cym.txt,none detected
-c110a-eng.txt,fee-account
+c110a-eng.txt,none detected
 c12-bil.txt,none detected
 c12-eng.txt,none detected
 c120-eng.txt,none detected
@@ -192,12 +192,12 @@ c17a-eng.txt,none detected
 c18-bil.txt,none detected
 c18-eng.txt,none detected
 c19-eng.txt,none detected
-c1a-bil.txt,"c(""costs"", ""c100"")"
+c1a-bil.txt,c100
 c1a-eng.txt,c100
 c1a-nodiadau-c1a-notes-bil.txt,none detected
 c1a-notes-eng.txt,none detected
 c2-bil.txt,cb1
-c2-eng.txt,"c(""fm1"", ""fee-account"", ""ex160a"", ""ex50"", ""cb1"", ""c100"", ""c1a"")"
+c2-eng.txt,"c(""fm1"", ""ex160a"", ""ex50"", ""cb1"", ""c100"", ""c1a"")"
 c20-cym.txt,none detected
 c20-eng.txt,none detected
 c23-eng.txt,none detected
@@ -206,9 +206,9 @@ c3-eng.txt,none detected
 c4-bil.txt,none detected
 c4-eng.txt,none detected
 c5-bil.txt,cb1
-c5-eng.txt,"c(""fee-account"", ""cb1"")"
-c51-bil.txt,"c(""fee-account"", ""cb1"", ""c52"")"
-c51-eng.txt,"c(""fee-account"", ""cb1"", ""c52"")"
+c5-eng.txt,cb1
+c51-bil.txt,"c(""cb1"", ""c52"")"
+c51-eng.txt,"c(""cb1"", ""c52"")"
 c52-bil.txt,"c(""form-a"", ""form a"")"
 c52-eng.txt,"c(""form-a"", ""form a"")"
 c60-bil.txt,none detected
@@ -216,22 +216,22 @@ c60-eng.txt,none detected
 c61-eng.txt,none detected
 c62-eng.txt,none detected
 c63-bil.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
-c63-eng.txt,"c(""fee-account"", ""ex160a"", ""ex50"", ""cb1"")"
+c63-eng.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
 c64-bil.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
-c64-eng.txt,"c(""fee-account"", ""ex160a"", ""ex50"", ""cb1"")"
+c64-eng.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
 c65-bil.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
-c65-eng.txt,"c(""fee-account"", ""ex160a"", ""ex50"", ""cb1"")"
-c66-bil.txt,"c(""fee-account"", ""cb1"", ""c1a"")"
-c66-eng.txt,"c(""fee-account"", ""cb1"", ""c1a"")"
+c65-eng.txt,"c(""ex160a"", ""ex50"", ""cb1"")"
+c66-bil.txt,"c(""cb1"", ""c1a"")"
+c66-eng.txt,"c(""cb1"", ""c1a"")"
 c67-eng.txt,"c(""cb1"", ""c1a"")"
 c68-eng.txt,"c(""cb1"", ""c1a"")"
 c69-eng.txt,"c(""cb1"", ""c1a"")"
 c7-bil.txt,none detected
 c7-eng.txt,"c(""c100"", ""c79"", ""c78"", ""c1a"", ""c10a"")"
 c78-bil.txt,ex160a
-c78-eng.txt,fee-account
+c78-eng.txt,none detected
 c79-bil.txt,cb5
-c79-eng.txt,"c(""fee-account"", ""ex160a"", ""cb5"")"
+c79-eng.txt,"c(""ex160a"", ""cb5"")"
 c8-bil.txt,none detected
 c8-eng.txt,none detected
 c9-bil.txt,none detected
@@ -241,9 +241,9 @@ capsbacs1-eng.txt,"c(""capsbacs3"", ""capsbacs4"", ""capsbacs2"")"
 capsbacs2-eng.txt,none detected
 capsbacs3-eng.txt,none detected
 capsbacs4-eng.txt,capsbacs2
-case-management-information-sheet-eng_doc.txt,costs
+case-management-information-sheet-eng_doc.txt,none detected
 cb1-cym.txt,"c(""fp9"", ""ex710"", ""ex160a"", ""ex50"", ""cb5"", ""cb4"", ""cb3"", ""c100"", ""c1a"", ""a20"", ""c6a"", ""c10a"")"
-cb1-eng.txt,"c(""fp9"", ""ex710"", ""ex160a"", ""ex50"", ""costs"", ""cb5"", ""cb4"", ""cb3"", ""c100"", ""c1a"", ""a20"", ""c6a"", ""c10a"")"
+cb1-eng.txt,"c(""fp9"", ""ex710"", ""ex160a"", ""ex50"", ""cb5"", ""cb4"", ""cb3"", ""c100"", ""c1a"", ""a20"", ""c6a"", ""c10a"")"
 cb2-cym.txt,"c(""cb7"", ""c100"")"
 cb2-eng.txt,"c(""cb7"", ""c100"")"
 cb3-cym.txt,"c(""c79"", ""c6a"", ""c10a"")"
@@ -251,61 +251,61 @@ cb3-eng.txt,"c(""c79"", ""c6a"", ""forma"")"
 cb4-cym.txt,"c(""fm1"", ""ex160a"", ""ex50"", ""cb3"", ""cb1"", ""c13a"")"
 cb4-eng.txt,"c(""fm1"", ""ex160a"", ""ex50"", ""cb3"", ""cb1"", ""c13a"")"
 cb5-cym.txt,"c(""ex160a"", ""ex50"", ""cb3"", ""cb1"", ""c78"", ""c6a"")"
-cb5-eng.txt,"c(""ex160a"", ""ex50"", ""costs"", ""cb3"", ""cb1"", ""c78"", ""c6a"")"
+cb5-eng.txt,"c(""ex160a"", ""ex50"", ""cb3"", ""cb1"", ""c78"", ""c6a"")"
 cb6-cym.txt,none detected
 cb6-eng.txt,c120
 cb7-cym.txt,none detected
-cb7-eng.txt,"c(""ex50"", ""costs"", ""cb6"", ""cb1"", ""c100"")"
-certificate-of-loss-eng.txt,"c(""jury-summons-form"", ""allowances"")"
-ch1-eng_doc.txt,costs
+cb7-eng.txt,"c(""ex50"", ""cb6"", ""cb1"", ""c100"")"
+certificate-of-loss-eng.txt,jury-summons-form
+ch1-eng_doc.txt,none detected
 ch10-eng_doc.txt,none detected
-ch11-eng_doc.txt,costs
-ch12-eng_doc.txt,costs
+ch11-eng_doc.txt,none detected
+ch12-eng_doc.txt,none detected
 ch13-eng_doc.txt,none detected
-ch14-eng_doc.txt,costs
-ch15-eng_doc.txt,costs
-ch16-eng_doc.txt,costs
-ch17-eng_doc.txt,costs
-ch18-eng_doc.txt,costs
-ch19-eng_doc.txt,costs
-ch2-eng_doc.txt,costs
-ch20-eng_doc.txt,costs
-ch21-eng_doc.txt,costs
+ch14-eng_doc.txt,none detected
+ch15-eng_doc.txt,none detected
+ch16-eng_doc.txt,none detected
+ch17-eng_doc.txt,none detected
+ch18-eng_doc.txt,none detected
+ch19-eng_doc.txt,none detected
+ch2-eng_doc.txt,none detected
+ch20-eng_doc.txt,none detected
+ch21-eng_doc.txt,none detected
 ch22-eng_doc.txt,none detected
 ch23-eng_doc.txt,none detected
 ch24-eng_doc.txt,none detected
 ch25-eng_doc.txt,none detected
-ch26-eng_doc.txt,costs
-ch27-eng_doc.txt,costs
-ch28-eng_doc.txt,costs
+ch26-eng_doc.txt,none detected
+ch27-eng_doc.txt,none detected
+ch28-eng_doc.txt,none detected
 ch29-eng_doc.txt,none detected
-ch3-eng_doc.txt,costs
-ch30-eng_doc.txt,costs
-ch31-eng_doc.txt,costs
-ch32-eng_doc.txt,costs
+ch3-eng_doc.txt,none detected
+ch30-eng_doc.txt,none detected
+ch31-eng_doc.txt,none detected
+ch32-eng_doc.txt,none detected
 ch33-eng_doc.txt,none detected
 ch34-eng_doc.txt,none detected
-ch35-eng_doc.txt,costs
-ch36-eng_doc.txt,costs
-ch37-eng_doc.txt,costs
-ch38-eng_doc.txt,costs
-ch39-eng_doc.txt,costs
-ch4-eng_doc.txt,costs
-ch40-eng_doc.txt,costs
-ch41-eng_doc.txt,costs
-ch42-eng_doc.txt,costs
+ch35-eng_doc.txt,none detected
+ch36-eng_doc.txt,none detected
+ch37-eng_doc.txt,none detected
+ch38-eng_doc.txt,none detected
+ch39-eng_doc.txt,none detected
+ch4-eng_doc.txt,none detected
+ch40-eng_doc.txt,none detected
+ch41-eng_doc.txt,none detected
+ch42-eng_doc.txt,none detected
 ch43-eng_doc.txt,none detected
 ch44-eng_doc.txt,none detected
 ch5-eng_doc.txt,none detected
-ch6-eng_doc.txt,costs
+ch6-eng_doc.txt,none detected
 ch7-eng_doc.txt,none detected
 ch8-eng_doc.txt,none detected
-ch9-eng_doc.txt,costs
+ch9-eng_doc.txt,none detected
 child-support-how-to-appeal-(england)-eng.txt,none detected
 child-support-how-to-appeal-(scotland)-eng.txt,none detected
-cic-guide-1996-eng.txt,costs
-cic-guide-2001-eng.txt,costs
-cic-guide-2008-eng.txt,costs
+cic-guide-1996-eng.txt,none detected
+cic-guide-2001-eng.txt,none detected
+cic-guide-2008-eng.txt,none detected
 cic-guide-2012-eng.txt,none detected
 coa-bundle-index-a1-a2-a3-eng_doc.txt,n460
 coa-bundle-index-a1-a2-a3a-eng_doc.txt,n460
@@ -338,7 +338,7 @@ comp-4-eng_doc.txt,none detected
 comp-5-eng_doc.txt,none detected
 comp-7-eng_doc.txt,none detected
 comp-8-eng_doc.txt,none detected
-control-order-eng_doc.txt,costs
+control-order-eng_doc.txt,none detected
 cop-dla-cym.txt,"c(""cop-dlb"", ""cop-dlc"")"
 cop-dla-eng.txt,cop-dlb
 cop-dlb-cym.txt,none detected
@@ -358,19 +358,19 @@ cop-gn2-eng.txt,"c(""cop44"", ""cop24"", ""cop12"", ""cop1d"", ""cop1"")"
 cop-gn3-cym.txt,"c(""cop44"", ""cop24"", ""cop9"", ""cop3"", ""cop1b"", ""cop1a"", ""cop1"", ""cop-gn2"")"
 cop-gn3-eng.txt,"c(""cop44"", ""cop24"", ""cop1e"", ""cop1"")"
 cop-gn4-cym.txt,"c(""cop44"", ""cop42"", ""cop35"", ""cop28"", ""cop24"", ""cop20b"", ""cop20a"", ""cop14"", ""cop15"", ""cop10"", ""cop9"", ""cop5"", ""cop3"", ""cop2"", ""cop1"")"
-cop-gn4-eng.txt,"c(""cop44"", ""costs"", ""cop35"", ""cop28"", ""cop24"", ""cop20b"", ""cop20a"", ""cop14"", ""cop15"", ""cop10"", ""cop9"", ""cop5"", ""cop3"", ""cop1b"", ""cop1"")"
+cop-gn4-eng.txt,"c(""cop44"", ""cop35"", ""cop28"", ""cop24"", ""cop20b"", ""cop20a"", ""cop14"", ""cop15"", ""cop10"", ""cop9"", ""cop5"", ""cop3"", ""cop1b"", ""cop1"")"
 cop-gn5-cym.txt,"c(""ex160"", ""cop24"", ""cop20a"", ""cop14"", ""cop9"")"
-cop-gn5-eng.txt,"c(""ex160a"", ""cop44"", ""costs"", ""cop24"", ""cop20a"", ""cop14"", ""cop9"")"
+cop-gn5-eng.txt,"c(""ex160a"", ""cop44"", ""cop24"", ""cop20a"", ""cop14"", ""cop9"")"
 cop-gn6-cym.txt,none detected
 cop-gn7-cym.txt,none detected
 cop-gn8-cym.txt,"c(""cop42"", ""cop1"")"
-cop-gn8-eng.txt,"c(""cop44"", ""costs"", ""cop3"", ""cop1c"", ""cop1"")"
+cop-gn8-eng.txt,"c(""cop44"", ""cop3"", ""cop1c"", ""cop1"")"
 cop1-bil.txt,none detected
 cop1-cym.txt,none detected
-cop1-eng.txt,"c(""cop44"", ""costs"", ""cop42"", ""cop35"", ""cop24"", ""cop12"", ""cop9"", ""cop4"", ""cop3"", ""cop1d"", ""cop1b"", ""cop1a"", ""cop1e"", ""cop1c"", ""cop1f"", ""cop-gn4"", ""cop-gn8"", ""cop-gn1"", ""cop-gn2"", ""cop-gn3"")"
+cop1-eng.txt,"c(""cop44"", ""cop42"", ""cop35"", ""cop24"", ""cop12"", ""cop9"", ""cop4"", ""cop3"", ""cop1d"", ""cop1b"", ""cop1a"", ""cop1e"", ""cop1c"", ""cop1f"", ""cop-gn4"", ""cop-gn8"", ""cop-gn1"", ""cop-gn2"", ""cop-gn3"")"
 cop10-bil.txt,cop9
 cop10-cym.txt,cop9
-cop10-eng.txt,"c(""cop44"", ""costs"", ""cop24"", ""cop15"", ""cop9"", ""cop5"", ""cop1"")"
+cop10-eng.txt,"c(""cop44"", ""cop24"", ""cop15"", ""cop9"", ""cop5"", ""cop1"")"
 cop12-cym.txt,cop1
 cop12-eng.txt,cop1
 cop14-bil.txt,none detected
@@ -382,7 +382,7 @@ cop15-cym.txt,cop5
 cop15-eng.txt,cop5
 cop15a-eng.txt,"c(""cop20b"", ""cop15"", ""cop5"", ""cop1"")"
 cop1a-bil.txt,none detected
-cop1a-eng.txt,"c(""costs"", ""cop1"")"
+cop1a-eng.txt,cop1
 cop1b-bil.txt,none detected
 cop1b-eng.txt,"c(""cop44"", ""cop24"", ""cop4"", ""cop3"", ""cop1"")"
 cop1c-eng.txt,"c(""cop24"", ""cop3"", ""cop1a"", ""cop1"")"
@@ -426,7 +426,7 @@ cop31-cym.txt,none detected
 cop31-eng.txt,cop1
 cop35-bil.txt,none detected
 cop35-cym.txt,none detected
-cop35-eng.txt,"c(""costs"", ""cop37"", ""cop36"", ""cop24"")"
+cop35-eng.txt,"c(""cop37"", ""cop36"", ""cop24"")"
 cop36-bil.txt,none detected
 cop36-cym.txt,none detected
 cop36-eng.txt,none detected
@@ -436,29 +436,29 @@ cop4-bil.txt,cop1
 cop4-cym.txt,none detected
 cop4-eng.txt,none detected
 cop42-cym.txt,"c(""cop44"", ""cop35"", ""cop37"", ""cop36"", ""cop28"", ""cop24"", ""cop20b"", ""cop21b"", ""cop21a"", ""cop20a"", ""cop15a"", ""cop14"", ""cop15"", ""cop14a"", ""cop10"", ""cop7"", ""cop8"", ""cop9"", ""cop5"", ""cop4"", ""cop3"", ""cop2"", ""cop1b"", ""cop1a"", ""cop1"", ""cop-gn4"", ""cop-gn7"", ""cop-gn8"", ""cop-gn5"", ""cop-gn6"", ""cop-gn1"", ""cop-gn3"")"
-cop42-eng.txt,"c(""cop44"", ""costs"", ""cop35"", ""cop37"", ""cop36"", ""cop28"", ""cop24"", ""cop20b"", ""cop21b"", ""cop21a"", ""cop20a"", ""cop15a"", ""cop14"", ""cop15"", ""cop14a"", ""cop10"", ""cop7"", ""cop8"", ""cop9"", ""cop5"", ""cop4"", ""cop3"", ""cop2"", ""cop1b"", ""cop1a"", ""cop1"", ""cop-gn4"", ""cop-gn7"", ""cop-gn8"", ""cop-gn5"", ""cop-gn6"", ""cop-gn1"", ""cop-gn2"", ""cop-gn3"")"
+cop42-eng.txt,"c(""cop44"", ""cop35"", ""cop37"", ""cop36"", ""cop28"", ""cop24"", ""cop20b"", ""cop21b"", ""cop21a"", ""cop20a"", ""cop15a"", ""cop14"", ""cop15"", ""cop14a"", ""cop10"", ""cop7"", ""cop8"", ""cop9"", ""cop5"", ""cop4"", ""cop3"", ""cop2"", ""cop1b"", ""cop1a"", ""cop1"", ""cop-gn4"", ""cop-gn7"", ""cop-gn8"", ""cop-gn5"", ""cop-gn6"", ""cop-gn1"", ""cop-gn2"", ""cop-gn3"")"
 cop44-cym.txt,"c(""cop44a"", ""ep1pg"", ""lpa001"")"
-cop44-eng.txt,"c(""cop44a"", ""costs"", ""ep1pg"", ""lpa001"")"
+cop44-eng.txt,"c(""cop44a"", ""ep1pg"", ""lpa001"")"
 cop44a-cym.txt,none detected
 cop44a-eng.txt,none detected
 cop44b-eng.txt,ex160c
 cop5-bil.txt,none detected
 cop5-eng.txt,"c(""cop24"", ""cop1"")"
-cop5a-eng.txt,"c(""costs"", ""cop24"", ""cop14"", ""cop15"", ""cop5"")"
+cop5a-eng.txt,"c(""cop24"", ""cop14"", ""cop15"", ""cop5"")"
 cop7-bil.txt,lpa001
 cop7-cym.txt,"c(""cop24"", ""cop1"", ""lpa001"", ""lpa006"", ""lpa008"")"
-cop7-eng.txt,"c(""cop44"", ""costs"", ""cop24"", ""cop1"", ""lpa001"", ""lpa006"", ""lpa007"", ""lpa008"")"
+cop7-eng.txt,"c(""cop44"", ""cop24"", ""cop1"", ""lpa001"", ""lpa006"", ""lpa007"", ""lpa008"")"
 cop8-cym.txt,"c(""cop24"", ""ep1pg"")"
-cop8-eng.txt,"c(""cop44"", ""costs"", ""cop24"", ""cop1"", ""ep1pg"")"
+cop8-eng.txt,"c(""cop44"", ""cop24"", ""cop1"", ""ep1pg"")"
 cop9-bil.txt,none detected
 cop9-cym.txt,none detected
-cop9-eng.txt,"c(""cop44"", ""costs"", ""cop24"", ""cop25"", ""cop10"", ""cop1"")"
+cop9-eng.txt,"c(""cop44"", ""cop24"", ""cop25"", ""cop10"", ""cop1"")"
 costs-eng_doc.txt,none detected
-county-court-business-centre-code-of-practice-eng.txt,"c(""secure-data-transfer"", ""n445"", ""n294"", ""n225a"", ""n225"", ""n30"", ""n9a"", ""costs"", ""n35"", ""n35a"", ""n293"")"
-criminal-injuries-compensation-scheme-1996-eng.txt,costs
-criminal-injuries-compensation-scheme-2001-eng.txt,costs
+county-court-business-centre-code-of-practice-eng.txt,"c(""secure-data-transfer"", ""n445"", ""n294"", ""n225a"", ""n225"", ""n30"", ""n9a"", ""n30(2)"", ""n35"", ""n35a"", ""n293"")"
+criminal-injuries-compensation-scheme-1996-eng.txt,none detected
+criminal-injuries-compensation-scheme-2001-eng.txt,none detected
 criminal-injuries-compensation-scheme-2008-eng.txt,none detected
-criminal-injuries-compensation-scheme-2012-eng.txt,"c(""criminal-injuries-compensation-scheme-2001"", ""criminal-injuries-compensation-scheme-1996"", ""costs"", ""criminal-injuries-compensation-scheme-2008"", ""a20"", ""a12"", ""a13"", ""a15"", ""a16"", ""a17"", ""a18"", ""a19"", ""5134"")"
+criminal-injuries-compensation-scheme-2012-eng.txt,"c(""criminal-injuries-compensation-scheme-2001"", ""criminal-injuries-compensation-scheme-1996"", ""criminal-injuries-compensation-scheme-2008"", ""a20"", ""a12"", ""a13"", ""a15"", ""a16"", ""a17"", ""a18"", ""a19"")"
 crown-court-preliminary-hearing-form-(multiple-defendants)-eng_doc.txt,"c(""pcmh"", ""ground-rules-hearing-form"", ""crown-court-preliminary-hearing-form"")"
 crown-court-preliminary-hearing-form-eng_doc.txt,"c(""pcmh"", ""ground-rules-hearing-form"")"
 cs-a1-eng.txt,none detected
@@ -478,8 +478,8 @@ cs01-eng.txt,none detected
 cs02-eng.txt,none detected
 cs03-eng.txt,none detected
 cs04-eng.txt,none detected
-d11-bil.txt,"c(""fee-account"", ""ex160"", ""ex50"", ""costs"")"
-d11-eng.txt,"c(""fee-account"", ""ex160"", ""ex50"", ""costs"")"
+d11-bil.txt,"c(""ex160"", ""ex50"")"
+d11-eng.txt,"c(""ex160"", ""ex50"")"
 d13b-bil.txt,none detected
 d13b-eng.txt,none detected
 d151-bil.txt,none detected
@@ -491,39 +491,39 @@ d183-eng.txt,"c(""ex160a"", ""ex50"", ""d192"", ""d191"", ""d184"", ""cb7"")"
 d184-cym.txt,"c(""ex160a"", ""ex50"", ""d186"", ""d183"", ""d89"", ""cb7"", ""d9a"", ""d9h"")"
 d184-eng.txt,"c(""ex160a"", ""ex50"", ""d186"", ""d183"", ""d89"", ""cb7"", ""d9a"", ""d9h"")"
 d185-cym.txt,"c(""d184"", ""d183"", ""cb1"")"
-d185-eng.txt,"c(""d184"", ""d183"", ""costs"", ""cb1"")"
-d186-cym.txt,"c(""d187"", ""d84"", ""cb7"", ""d79"", ""d84(a)"")"
-d186-eng.txt,"c(""d187"", ""d84"", ""costs"", ""cb7"", ""d79"", ""d84(a)"")"
+d185-eng.txt,"c(""d184"", ""d183"", ""cb1"")"
+d186-cym.txt,"c(""d187"", ""d84"", ""cb7"", ""d79"")"
+d186-eng.txt,"c(""d187"", ""d84"", ""cb7"", ""d79"")"
 d187-cym.txt,"c(""ex160a"", ""ex50"", ""d36"", ""d29"", ""d37"", ""d529"", ""d537"")"
 d187-eng.txt,"c(""ex160"", ""ex50"", ""d36"", ""d29"", ""d37"", ""d529"", ""d537"")"
 d190-cym.txt,"c(""ex160a"", ""ex50"")"
-d190-eng.txt,"c(""form-h"", ""form-e"", ""form-a"", ""ex160a"", ""ex50"", ""costs"", ""form a"")"
+d190-eng.txt,"c(""form-h"", ""form-e"", ""form-a"", ""ex160a"", ""ex50"", ""form a"")"
 d191-cym.txt,"c(""ex160a"", ""ex50"", ""d190"", ""d184"", ""d8n"", ""cb7"")"
 d191-eng.txt,"c(""ex160a"", ""ex50"", ""d190"", ""d184"", ""d8n"", ""cb7"")"
 d192-cym.txt,none detected
 d192-eng.txt,"c(""ex50"", ""d191"", ""cb7"")"
 d193-cym.txt,"c(""ex160a"", ""d508"", ""d194"", ""d195"")"
-d194-cym.txt,"c(""ex160a"", ""ex50"", ""d508"", ""d89"", ""d8a"", ""d9a"", ""d9h"")"
-d195-cym.txt,"c(""ex160a"", ""ex50"", ""d197"", ""d196"", ""d8a"", ""d84(c)"", ""d566"")"
-d196-cym.txt,"c(""d197"", ""d195"", ""d84"", ""d8a"", ""d79"", ""d580g"")"
+d194-cym.txt,"c(""ex160a"", ""ex50"", ""d508"", ""d89"", ""d8a"", ""d9a"", ""d9h"", ""d510(6)"")"
+d195-cym.txt,"c(""ex160a"", ""ex50"", ""d197"", ""d196"", ""d8a"", ""d566"")"
+d196-cym.txt,"c(""d197"", ""d195"", ""d84"", ""d8a"", ""d79"", ""d510(6)"", ""d580g"")"
 d197-cym.txt,"c(""ex160a"", ""ex50"", ""d195"", ""d36"", ""d529"", ""d537"", ""d566"")"
 d20-bil.txt,none detected
 d20-eng.txt,none detected
-d252-bil.txt,costs
-d252-eng.txt,costs
-d254-bil.txt,costs
-d254-eng.txt,costs
-d258-bil.txt,costs
-d258-eng.txt,costs
-d258a-bil.txt,costs
-d258a-eng.txt,costs
-d258b-bil.txt,costs
+d252-bil.txt,none detected
+d252-eng.txt,none detected
+d254-bil.txt,none detected
+d254-eng.txt,none detected
+d258-bil.txt,none detected
+d258-eng.txt,none detected
+d258a-bil.txt,none detected
+d258a-eng.txt,none detected
+d258b-bil.txt,none detected
 d258b-cym.txt,none detected
-d258b-eng.txt,costs
-d258c-bil.txt,costs
-d258c-eng.txt,costs
-d259-bil.txt,costs
-d259-eng.txt,"c(""fee-account"", ""costs"")"
+d258b-eng.txt,none detected
+d258c-bil.txt,none detected
+d258c-eng.txt,none detected
+d259-bil.txt,none detected
+d259-eng.txt,none detected
 d36-bil.txt,none detected
 d36-eng.txt,none detected
 d440-cym.txt,ex50
@@ -531,17 +531,17 @@ d440-eng.txt,ex50
 d5-bil.txt,none detected
 d5-eng.txt,none detected
 d50-bil.txt,none detected
-d50-eng.txt,fee-account
-d508-cym.txt,costs
+d50-eng.txt,none detected
+d508-cym.txt,none detected
 d508-nodiadau-notes-cym.txt,none detected
-d50a-bil.txt,costs
-d50a-eng.txt,costs
+d50a-bil.txt,none detected
+d50a-eng.txt,none detected
 d50b-bil.txt,none detected
-d50b-eng.txt,fee-account
+d50b-eng.txt,none detected
 d50c-bil.txt,form-a1
-d50c-eng.txt,"c(""form-a1"", ""fee-account"")"
+d50c-eng.txt,form-a1
 d50d-bil.txt,form-a1
-d50d-eng.txt,"c(""form-a1"", ""fee-account"")"
+d50d-eng.txt,form-a1
 d50e-bil.txt,none detected
 d50e-eng.txt,none detected
 d50f-bil.txt,none detected
@@ -552,67 +552,67 @@ d50h-bil.txt,none detected
 d50h-eng.txt,none detected
 d50j-bil.txt,none detected
 d50j-eng.txt,none detected
-d50k-bil.txt,fee-account
-d50k-eng.txt,fee-account
+d50k-bil.txt,none detected
+d50k-eng.txt,none detected
 d580(f)-bil.txt,none detected
 d6-bil.txt,none detected
 d6-eng.txt,none detected
-d62-bil.txt,costs
-d62-eng.txt,"c(""fee-account"", ""costs"")"
+d62-bil.txt,none detected
+d62-eng.txt,none detected
 d63-bil.txt,none detected
-d63-eng.txt,costs
+d63-eng.txt,none detected
 d650-eng.txt,form-e
 d651-eng.txt,form-e1
 d70-bil.txt,none detected
 d70-eng.txt,none detected
-d8-bil.txt,"c(""form-a"", ""ex160a"", ""ex160"", ""ex50"", ""d11"", ""costs"", ""form a"")"
-d8-eng.txt,"c(""form-a"", ""ex160a"", ""ex160"", ""ex50"", ""d11"", ""costs"", ""form a"")"
-d8-nodiadau-d8-notes-bil.txt,"c(""ex50"", ""d192"", ""d190"", ""d183"", ""costs"")"
-d80a-bil.txt,costs
-d80a-eng.txt,costs
-d80b-bil.txt,costs
-d80b-eng.txt,costs
-d80c-bil.txt,costs
-d80c-eng.txt,costs
-d80d-bil.txt,costs
-d80d-eng.txt,costs
-d80e-bil.txt,costs
-d80e-eng.txt,costs
-d80f-bil.txt,costs
-d80f-eng.txt,costs
-d80g-bil.txt,costs
-d80g-eng.txt,costs
+d8-bil.txt,"c(""form-a"", ""ex160a"", ""ex160"", ""ex50"", ""d11"", ""form a"")"
+d8-eng.txt,"c(""form-a"", ""ex160a"", ""ex160"", ""ex50"", ""d11"", ""form a"")"
+d8-nodiadau-d8-notes-bil.txt,"c(""ex50"", ""d192"", ""d190"", ""d183"")"
+d80a-bil.txt,none detected
+d80a-eng.txt,none detected
+d80b-bil.txt,none detected
+d80b-eng.txt,none detected
+d80c-bil.txt,none detected
+d80c-eng.txt,none detected
+d80d-bil.txt,none detected
+d80d-eng.txt,none detected
+d80e-bil.txt,none detected
+d80e-eng.txt,none detected
+d80f-bil.txt,none detected
+d80f-eng.txt,none detected
+d80g-bil.txt,none detected
+d80g-eng.txt,none detected
 d81-bil.txt,"c(""ppf"", ""form-a"", ""form a"")"
 d81-eng.txt,ppf
 d84-bil.txt,none detected
 d84-eng.txt,none detected
 d89-bil.txt,none detected
 d89-cym.txt,none detected
-d89-eng.txt,fee-account
+d89-eng.txt,none detected
 d8a-bil.txt,none detected
-d8b-bil.txt,costs
-d8b-eng.txt,costs
+d8b-bil.txt,none detected
+d8b-eng.txt,none detected
 d8d-bil.txt,"c(""d8n"", ""d8n-notes"", ""d8n notes"")"
 d8d-eng.txt,"c(""d8d-notes"", ""d8d notes"")"
 d8d-nodiadau-d8d-notes-bil.txt,"c(""ex50"", ""d190"", ""d8d"")"
 d8d-notes-eng.txt,"c(""ex50"", ""d190"")"
-d8n-bil.txt,"c(""d8n-notes"", ""costs"", ""d8n notes"")"
-d8n-eng.txt,"c(""d8n-notes"", ""costs"", ""d8n notes"")"
-d8n-nodiadau-d8n-notes-bil.txt,"c(""form-a"", ""ex50"", ""d191"", ""d190"", ""d8n"", ""costs"", ""form a"")"
-d8n-notes-eng.txt,"c(""form-a"", ""ex50"", ""d191"", ""d190"", ""costs"", ""form a"")"
+d8n-bil.txt,"c(""d8n-notes"", ""d8n notes"")"
+d8n-eng.txt,"c(""d8n-notes"", ""d8n notes"")"
+d8n-nodiadau-d8n-notes-bil.txt,"c(""form-a"", ""ex50"", ""d191"", ""d190"", ""d8n"", ""form a"")"
+d8n-notes-eng.txt,"c(""form-a"", ""ex50"", ""d191"", ""d190"", ""form a"")"
 eac1-eng.txt,none detected
 eac2-eng.txt,none detected
 eich-apel-y-camau-nesaf-cym.txt,none detected
-el1-eng.txt,costs
-el2-eng.txt,costs
-eld1-eng.txt,costs
-eld2-eng.txt,costs
+el1-eng.txt,none detected
+el2-eng.txt,none detected
+eld1-eng.txt,none detected
+eld2-eng.txt,none detected
 enquiry-form-(appellant)-eng.txt,none detected
 enquiry-form-(other-party)-eng.txt,none detected
 epl3-eng.txt,none detected
 epl4-eng.txt,none detected
 epl5-eng.txt,none detected
-epl6-and-epl7-eng.txt,costs
+epl6-and-epl7-eng.txt,none detected
 et1-cym.txt,none detected
 et1-eng.txt,none detected
 et1a-cym.txt,et1
@@ -621,108 +621,108 @@ et3-cym.txt,none detected
 et3-eng.txt,none detected
 eu-article-53-eng.txt,none detected
 eu-article-60-eng.txt,none detected
-ex105-bil.txt,costs
-ex105-eng.txt,costs
-ex107-bil.txt,costs
+ex105-bil.txt,none detected
+ex105-eng.txt,none detected
+ex107-bil.txt,none detected
 ex107-eng.txt,none detected
-ex107-gwybodaeth-ex107-info-bil.txt,"c(""ex107"", ""costs"", ""ch7"", ""ex107info"")"
+ex107-gwybodaeth-ex107-info-bil.txt,"c(""ex107"", ""ch7"", ""ex107info"")"
 ex107c-cym.txt,ex107
 ex107c-eng.txt,ex107
 ex107gn-cym.txt,ex107
 ex107gn-eng.txt,ex107
 ex108-eng.txt,none detected
 ex140-bil.txt,none detected
-ex140-eng.txt,costs
+ex140-eng.txt,none detected
 ex141-bil.txt,none detected
-ex141-eng.txt,costs
+ex141-eng.txt,none detected
 ex160-bil.txt,none detected
 ex160-eng.txt,none detected
 ex160a-bil.txt,none detected
-ex160a-eng.txt,costs
+ex160a-eng.txt,none detected
 ex160b-eng.txt,none detected
 ex20-bil.txt,none detected
 ex20-cym.txt,none detected
-ex20-eng.txt,"c(""n443"", ""n244"", ""costs"")"
+ex20-eng.txt,"c(""n443"", ""n244"")"
 ex244-eng_doc.txt,none detected
 ex301-bil.txt,none detected
 ex301-cym.txt,"c(""ex340"", ""ex321"", ""ex306"", ""ex303"", ""ex302"")"
-ex301-eng.txt,"c(""ex340"", ""ex321"", ""ex306"", ""ex305"", ""ex303"", ""ex302"", ""ex160a"", ""ex50"", ""costs"")"
+ex301-eng.txt,"c(""ex340"", ""ex321"", ""ex306"", ""ex305"", ""ex303"", ""ex302"", ""ex160a"", ""ex50"")"
 ex302-cym.txt,"c(""ex304"", ""ex160a"", ""ex50"")"
-ex302-eng.txt,"c(""ex304"", ""ex160a"", ""ex50"", ""costs"")"
+ex302-eng.txt,"c(""ex304"", ""ex160a"", ""ex50"")"
 ex303-bil.txt,none detected
 ex303-cym.txt,none detected
-ex303-eng.txt,"c(""ex306"", ""ex305"", ""ex301"", ""ex160a"", ""ex50"", ""costs"")"
+ex303-eng.txt,"c(""ex306"", ""ex305"", ""ex301"", ""ex160a"", ""ex50"")"
 ex304-bil.txt,none detected
 ex304-cym.txt,none detected
-ex304-eng.txt,"c(""ex342"", ""ex306"", ""ex305"", ""costs"", ""ex3"")"
+ex304-eng.txt,"c(""ex342"", ""ex306"", ""ex305"", ""ex3"")"
 ex305-cym.txt,"c(""ex340"", ""ex341"", ""ex306"", ""ex160a"", ""ex160"", ""ex50"")"
-ex305-eng.txt,"c(""ex340"", ""ex341"", ""ex306"", ""ex160a"", ""ex160"", ""ex50"", ""costs"")"
+ex305-eng.txt,"c(""ex340"", ""ex341"", ""ex306"", ""ex160a"", ""ex160"", ""ex50"")"
 ex306-cym.txt,"c(""ex730"", ""ex342"", ""ex340"", ""ex341"", ""ex321"", ""ex305"", ""ex160a"", ""ex50"")"
-ex306-eng.txt,"c(""ex730"", ""ex342"", ""ex340"", ""ex341"", ""ex321"", ""ex305"", ""ex160a"", ""ex160"", ""ex50"", ""costs"")"
+ex306-eng.txt,"c(""ex730"", ""ex342"", ""ex340"", ""ex341"", ""ex321"", ""ex305"", ""ex160a"", ""ex160"", ""ex50"")"
 ex320-bil.txt,none detected
 ex320-cym.txt,"c(""n443"", ""ex50"", ""ex20"")"
 ex320-eng.txt,"c(""n443"", ""ex20"")"
 ex321-cym.txt,"c(""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex160a"")"
-ex321-eng.txt,"c(""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex160a"", ""costs"")"
-ex322-cym.txt,"c(""n445"", ""n323"", ""n293a"", ""ex321"", ""ex160a"", ""ex50"", ""n32(3)"", ""n246a"")"
-ex322-eng.txt,"c(""n445"", ""n323"", ""n293a"", ""ex321"", ""ex160a"", ""ex50"", ""costs"", ""n32(3)"", ""n246a"")"
+ex321-eng.txt,"c(""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex160a"")"
+ex322-cym.txt,"c(""n445"", ""n323"", ""n293a"", ""ex321"", ""ex160a"", ""ex50"", ""n246a"")"
+ex322-eng.txt,"c(""n445"", ""n323"", ""n293a"", ""ex321"", ""ex160a"", ""ex50"", ""n246a"")"
 ex323-cym.txt,"c(""ex325"", ""ex324"", ""ex321"")"
-ex323-eng.txt,"c(""n446"", ""n337"", ""n336"", ""n244"", ""ex324"", ""ex321"", ""ex160a"", ""ex50"", ""costs"")"
+ex323-eng.txt,"c(""n446"", ""n337"", ""n336"", ""n244"", ""ex324"", ""ex321"", ""ex160a"", ""ex50"")"
 ex324-cym.txt,"c(""n316"", ""n316a"", ""n39"", ""ex550"", ""ex321"", ""ex160a"", ""ex140"", ""ex141"", ""ex50"", ""n79a"")"
 ex324-eng.txt,"c(""n316"", ""n316a"", ""n39"", ""ex550"", ""ex321"", ""ex160a"", ""ex140"", ""ex141"", ""ex50"", ""n79a"")"
-ex325-cym.txt,"c(""n380"", ""n349"", ""n215"", ""n87"", ""ex321"", ""ex160a"", ""ex50"", ""n8(4)"", ""n84"")"
-ex325-eng.txt,"c(""n380"", ""n379"", ""n349"", ""n215"", ""n87"", ""ex321"", ""ex160a"", ""ex50"", ""costs"", ""n8(4)"", ""n37"", ""n84"", ""n85"")"
+ex325-cym.txt,"c(""n380"", ""n349"", ""n215"", ""n87"", ""ex321"", ""ex160a"", ""ex50"", ""n84"")"
+ex325-eng.txt,"c(""n380"", ""n379"", ""n349"", ""n215"", ""n87"", ""ex321"", ""ex160a"", ""ex50"", ""n37"", ""n84"", ""n85"")"
 ex326-(print-bras)-cym.txt,"c(""n270"", ""n245"", ""n244"")"
 ex326-cym.txt,none detected
-ex326-eng.txt,"c(""n270"", ""n245"", ""n244"", ""n92"", ""ex160a"", ""ex50"", ""ex20"", ""costs"")"
-ex327-bil.txt,"c(""ex325"", ""ex324"", ""ex322"", ""ex160a"", ""ex50"", ""costs"")"
+ex326-eng.txt,"c(""n270"", ""n245"", ""n244"", ""n92"", ""ex160a"", ""ex50"", ""ex20"")"
+ex327-bil.txt,"c(""ex325"", ""ex324"", ""ex322"", ""ex160a"", ""ex50"")"
 ex327-cym.txt,"c(""remo20"", ""n337"", ""ex325"", ""ex324"", ""ex322"", ""ex160a"", ""ex50"", ""d62"", ""d50k"")"
-ex327-eng.txt,"c(""remo20"", ""n337"", ""ex325"", ""ex324"", ""ex322"", ""ex160a"", ""ex50"", ""d62"", ""d50k"", ""costs"")"
+ex327-eng.txt,"c(""remo20"", ""n337"", ""ex325"", ""ex324"", ""ex322"", ""ex160a"", ""ex50"", ""d62"", ""d50k"")"
 ex328-cym.txt,"c(""n322b"", ""ex727"", ""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex321"", ""ex160a"", ""ex50"")"
 ex328-eng.txt,"c(""n322b"", ""ex727"", ""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex321"", ""ex160a"", ""ex50"")"
 ex329-cym.txt,"c(""n322b"", ""n322a"", ""ex728"", ""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex321"", ""ex50"")"
 ex329-eng.txt,"c(""n322b"", ""n322a"", ""ex728"", ""ex325"", ""ex323"", ""ex324"", ""ex322"", ""ex321"", ""ex160a"", ""ex50"")"
 ex332-cym.txt,none detected
-ex332-eng.txt,"c(""n215"", ""n130"", ""n133"", ""ex160a"", ""ex50"", ""costs"", ""n206b"")"
+ex332-eng.txt,"c(""n215"", ""n130"", ""n133"", ""ex160a"", ""ex50"", ""n206b"")"
 ex333-cym.txt,none detected
 ex333-eng.txt,none detected
-ex340-cym.txt,"c(""n161"", ""n16(1)"", ""ex160a"", ""ex50"")"
-ex340-eng.txt,"c(""n164"", ""n161a"", ""n161"", ""n16(1)"", ""fp161a"", ""fp161"", ""ex160a"", ""ex160"", ""ex50"", ""costs"")"
+ex340-cym.txt,"c(""n161"", ""ex160a"", ""ex50"")"
+ex340-eng.txt,"c(""n164"", ""n161a"", ""n161"", ""fp161a"", ""fp161"", ""ex160a"", ""ex160"", ""ex50"")"
 ex341-cym.txt,n20
-ex341-eng.txt,"c(""n20"", ""costs"")"
+ex341-eng.txt,n20
 ex342-cym.txt,none detected
-ex342-eng.txt,"c(""n20"", ""ex340"", ""costs"", ""5152"")"
+ex342-eng.txt,"c(""n20"", ""ex340"")"
 ex343-cym.txt,none detected
 ex343-eng.txt,none detected
 ex343a-bil.txt,none detected
 ex343a-cym.txt,none detected
 ex343a-eng.txt,none detected
 ex345-cym.txt,ex343
-ex345-eng.txt,"c(""ex343"", ""ex160a"", ""ex50"", ""eac2"", ""costs"")"
+ex345-eng.txt,"c(""ex343"", ""ex160a"", ""ex50"", ""eac2"")"
 ex350-bil.txt,none detected
 ex350-cym.txt,"c(""ex730"", ""ex370"", ""ex304"", ""ex305"", ""ex302"")"
-ex350-eng.txt,"c(""ex302"", ""costs"", ""ex3"")"
+ex350-eng.txt,"c(""ex302"", ""ex3"")"
 ex370-bil.txt,"c(""ex343"", ""ex340"")"
 ex370-eng.txt,"c(""ex343"", ""ex340"")"
 ex375-cym.txt,"c(""n219a"", ""n219"", ""ex321"", ""ex160a"", ""ex50"")"
-ex375-eng.txt,"c(""n219a"", ""n219"", ""ex321"", ""ex160a"", ""ex50"", ""costs"")"
+ex375-eng.txt,"c(""n219a"", ""n219"", ""ex321"", ""ex160a"", ""ex50"")"
 ex380-eng.txt,ex343
 ex381-eng.txt,none detected
 ex50-cym.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
-ex50-eng.txt,"c(""secure-data-transfer"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+ex50-eng.txt,"c(""secure-data-transfer"", ""ex160a"", ""ex160"", ""cb1"")"
 ex501-bil.txt,none detected
 ex503-eng.txt,n461
 ex504-eng.txt,none detected
 ex506-eng.txt,none detected
 ex50a-cym_doc.txt,ex50
-ex50a-eng_doc.txt,"c(""secure-data-transfer"", ""ex50"", ""costs"")"
+ex50a-eng_doc.txt,"c(""secure-data-transfer"", ""ex50"")"
 ex550-bil.txt,none detected
 ex550-eng.txt,none detected
 ex660-eng.txt,none detected
 ex660-notes-eng.txt,"c(""ex660"", ""c21"")"
 ex670-cym_doc.txt,none detected
 ex670-eng_doc.txt,none detected
-ex670-notes-eng.txt,"c(""ex670"", ""costs"")"
+ex670-notes-eng.txt,ex670
 ex710-cym.txt,ex711
 ex710-eng.txt,ex711
 ex711-bil.txt,none detected
@@ -730,63 +730,63 @@ ex711-cym.txt,ex710
 ex711-eng.txt,ex710
 ex715-cym.txt,none detected
 ex725-cym.txt,"c(""ex321"", ""ex50"")"
-ex725-eng.txt,"c(""form-f"", ""form-a"", ""ex321"", ""ex50"", ""costs"", ""form a"")"
+ex725-eng.txt,"c(""form-f"", ""form-a"", ""ex321"", ""ex50"", ""form a"")"
 ex727-cym.txt,"c(""n471"", ""ex328"", ""ex160a"", ""ex50"")"
-ex727-eng.txt,"c(""n471"", ""ex328"", ""ex160a"", ""ex160"", ""ex50"", ""costs"")"
+ex727-eng.txt,"c(""n471"", ""ex328"", ""ex160a"", ""ex160"", ""ex50"")"
 ex728-cym.txt,"c(""n471a"", ""n471"", ""ex329"", ""ex160a"", ""ex50"")"
-ex728-eng.txt,"c(""n471a"", ""n471"", ""ex329"", ""ex160a"", ""ex160"", ""ex50"", ""costs"")"
+ex728-eng.txt,"c(""n471a"", ""n471"", ""ex329"", ""ex160a"", ""ex160"", ""ex50"")"
 ex730-cym.txt,n180
-ex730-eng.txt,"c(""n180"", ""costs"")"
+ex730-eng.txt,n180
 ex731-cym.txt,none detected
 ex80a-bil.txt,none detected
-ex80a-eng.txt,costs
-ex80b-eng.txt,costs
+ex80a-eng.txt,none detected
+ex80b-eng.txt,none detected
 ex97a-eng.txt,a13
 exn161-eng_doc.txt,none detected
 exn162-eng_doc.txt,none detected
-fe15-bil.txt,fee-account
-fe15-eng.txt,fee-account
+fe15-bil.txt,none detected
+fe15-eng.txt,none detected
 fe16-bil.txt,none detected
 fe16-eng.txt,none detected
 fe17-bil.txt,none detected
 fe17-eng.txt,none detected
 fe6-cym.txt,"c(""ex325"", ""ex160"")"
-fe6-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"", ""costs"")"
+fe6-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"")"
 fe7-cym.txt,"c(""ex325"", ""ex160"")"
-fe7-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"", ""costs"")"
+fe7-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"")"
 fee-account-application-form-eng.txt,fee-account
-fee-account-eng.txt,costs
+fee-account-eng.txt,fee-account
 fee-account-faqs-eng.txt,fee-account
 fee-account-t_cs-eng.txt,"c(""fee-account"", ""fee-account-application-form"")"
 ffurflen-6_doc.txt,none detected
-ffurflen-6.txt,costs
+ffurflen-6.txt,none detected
 ffurflen-a-form-a-bil.txt,"c(""form-a1"", ""form-a"", ""ex50"", ""form a"")"
 ffurflen-b-cym.txt,none detected
 ffurflen-cyswllt-(pleidiau-eraill)-cym.txt,ffurflen-ymholiadau
-ffurflen-e-bil.txt,"c(""ppf"", ""no.42"", ""form-e"", ""form-e1"", ""form-e2"", ""fee-account"", ""costs"")"
+ffurflen-e-bil.txt,"c(""ppf"", ""no.42"", ""form-e"", ""form-e1"", ""form-e2"")"
 ffurflen-e-canllawiau-cym.txt,none detected
 ffurflen-e-nodiadau-form-e-notes-bil.txt,none detected
-ffurflen-e1-form-e1-bil.txt,"c(""ppf"", ""form-e1"", ""form-e2"", ""costs"")"
+ffurflen-e1-form-e1-bil.txt,"c(""ppf"", ""form-e1"", ""form-e2"")"
 ffurflen-e2-form-e2-bil.txt,"c(""form-e"", ""form-e1"", ""form-e2"")"
 ffurflen-f-form-f-bil.txt,none detected
-ffurflen-h-form-h-bil.txt,costs
-ffurflen-h1-form-h1-bil.txt,"c(""form-h"", ""form-a"", ""costs"", ""form a"")"
+ffurflen-h-form-h-bil.txt,none detected
+ffurflen-h1-form-h1-bil.txt,"c(""form-h"", ""form-a"", ""form a"")"
 ffurflen-i-form-i-bil.txt,none detected
 ffurflen-p1-form-p1-bil.txt,form-p1
 ffurflen-p2-form-p2-bil.txt,none detected
 ffurflen-ymholiadau-cym.txt,none detected
 fgm001-cym.txt,"c(""fgm700"", ""fgm006"")"
-fgm001-eng.txt,"c(""fgm700"", ""fgm006"", ""fee-account"")"
+fgm001-eng.txt,"c(""fgm700"", ""fgm006"")"
 fgm002-cym.txt,fgm007
 fgm003-cym.txt,none detected
-fgm003-eng.txt,fee-account
+fgm003-eng.txt,none detected
 fgm004-cym.txt,none detected
 fgm005-cym.txt,none detected
 fgm005-eng.txt,none detected
 fgm006-cym.txt,none detected
-fgm006-eng.txt,fee-account
+fgm006-eng.txt,none detected
 fgm007-cym.txt,fgm700
-fgm007-eng.txt,"c(""fgm700"", ""fee-account"")"
+fgm007-eng.txt,fgm700
 fgm700-amh.txt,"c(""pl1"", ""fl415"", ""fgm005"", ""fgm006"", ""fgm002"", ""fgm001"", ""bd1"")"
 fgm700-ara.txt,"c(""pl1"", ""fl415"", ""fgm005"", ""fgm006"", ""fgm003"", ""fgm002"", ""fgm001"", ""bd1"")"
 fgm700-cym.txt,"c(""pl1"", ""fl415"", ""fgm005"", ""fgm006"", ""fgm003"", ""fgm002"", ""fgm001"", ""bd1"")"
@@ -803,8 +803,8 @@ fgm701-eng.txt,"c(""fgm700"", ""fgm005"", ""fgm004"", ""fgm006"", ""fgm003"", ""
 fixing-sheet-eng_doc.txt,none detected
 fl401-bil.txt,"c(""form-a"", ""form a"", ""fl416"")"
 fl401-eng.txt,"c(""form-a"", ""form a"", ""fl416"")"
-fl401a-bil.txt,"c(""fl430"", ""fee-account"")"
-fl401a-eng.txt,"c(""fl430"", ""fee-account"")"
+fl401a-bil.txt,fl430
+fl401a-eng.txt,fl430
 fl403-bil.txt,fl403a
 fl403-eng.txt,none detected
 fl403a-bil.txt,none detected
@@ -820,7 +820,7 @@ fl415-eng.txt,none detected
 fl430-bil.txt,fl401a
 fl430-eng.txt,fl401a
 fl431-bil.txt,none detected
-fl431-eng.txt,fee-account
+fl431-eng.txt,none detected
 fl700-cym.txt,"c(""fl415"", ""fl401"", ""fl402"", ""fl404"", ""fl404a"")"
 fl700-eng.txt,"c(""fl415"", ""fl401"", ""d89"", ""fl402"", ""fl404"", ""fl404a"")"
 fl701-ara.txt,"c(""fl430"", ""fl415"", ""fl403a"", ""fl407a"", ""fl401a"", ""fl402a"", ""bd1"")"
@@ -831,39 +831,39 @@ fl701-far.txt,"c(""fl430"", ""fl415"", ""fl403a"", ""fl407a"", ""fl401a"", ""fl4
 fl701-pun.txt,"c(""fl430"", ""fl415"", ""fl403a"", ""fl407a"", ""fl401a"", ""fl402a"", ""bd1"")"
 fl701-urd.txt,"c(""n155"", ""n1c"", ""fl430"", ""fl415"", ""fl403a"", ""fl407a"", ""fl401a"", ""fl402a"", ""bd1"")"
 fm1-eng.txt,"c(""cb7"", ""cb1"")"
-form-110-eng_doc.txt,costs
-form-111-eng_doc.txt,costs
+form-110-eng_doc.txt,none detected
+form-111-eng_doc.txt,none detected
 form-112-eng_doc.txt,none detected
 form-200-eng.txt,ex160a
-form-201-eng.txt,"c(""n208"", ""costs"")"
-form-202-eng.txt,"c(""n162"", ""n161a"", ""form-207"", ""ex160a"", ""costs"")"
+form-201-eng.txt,n208
+form-202-eng.txt,"c(""n162"", ""n161a"", ""form-207"", ""ex160a"")"
 form-204-eng.txt,"c(""t482"", ""t480"")"
 form-205-eng.txt,none detected
-form-206-eng.txt,"c(""n161a"", ""n161"", ""n16(1)"", ""form-207"", ""form-202"", ""form-200"", ""form-204"", ""form-201"", ""costs"")"
+form-206-eng.txt,"c(""n161a"", ""n161"", ""form-207"", ""form-202"", ""form-200"", ""form-204"", ""form-201"")"
 form-207-eng.txt,none detected
 form-4-eng.txt,none detected
-form-56a-eng.txt,"c(""form-56c"", ""costs"")"
-form-56b-eng.txt,"c(""form-56c"", ""form-56a"", ""costs"")"
-form-56c-eng.txt,costs
-form-a-eng.txt,"c(""form-a1"", ""ex50"", ""d50h"", ""d50f"", ""d50c"", ""form a"")"
+form-56a-eng.txt,form-56c
+form-56b-eng.txt,"c(""form-56c"", ""form-56a"")"
+form-56c-eng.txt,none detected
+form-a-eng.txt,"c(""form-a1"", ""ex50"", ""d50h"", ""d50f"", ""d50c"")"
 form-a1-eng.txt,"c(""form-a"", ""ex50"", ""d50h"", ""d50f"", ""d50c"", ""form a"")"
 form-a2-eng.txt,none detected
 form-b-eng.txt,none detected
 form-e-eng.txt,none detected
-form-e-notes-eng.txt,"c(""ppf"", ""form-e"", ""costs"")"
-form-e1-eng.txt,costs
+form-e-notes-eng.txt,"c(""ppf"", ""form-e"")"
+form-e1-eng.txt,none detected
 form-e2-eng.txt,"c(""form-e"", ""form-e1"")"
 form-edmo-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-f-eng.txt,none detected
-form-h-eng.txt,costs
-form-h1-eng.txt,costs
-form-hhsrs-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+form-h-eng.txt,none detected
+form-h1-eng.txt,none detected
+form-hhsrs-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-hmo-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-ho4-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-i-eng.txt,none detected
 form-mo-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-ocn-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
-form-p-eng.txt,form p
+form-p-eng.txt,none detected
 form-p1-eng.txt,none detected
 form-p10-eng_doc.txt,none detected
 form-p10-eng.txt,none detected
@@ -884,38 +884,38 @@ form-rp-pta-eng_doc.txt,cb1
 form-rro1-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-rro2-eng_doc.txt,"c(""form-rro1"", ""ex160a"", ""ex160"", ""cb1"")"
 form-rtb1-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
-form-rtm-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+form-rtm-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 form-ta-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 fp1-bil.txt,none detected
 fp1-eng.txt,none detected
 fp161-cym.txt,"c(""fp161a"", ""ex160"", ""ex105"")"
-fp161-eng.txt,"c(""fp161a"", ""fee-account"", ""ex160"", ""ex105"", ""costs"")"
-fp161a-cym.txt,"c(""n161d"", ""n161"", ""n16(1)"", ""fp202"", ""fp201"", ""fp161"", ""ex340"", ""ex160"", ""ex50"")"
-fp161a-eng.txt,"c(""n161d"", ""n161"", ""n16(1)"", ""fp244"", ""fp202"", ""fp201"", ""fp200"", ""fp161"", ""ex340"", ""ex160"", ""ex50"", ""costs"")"
+fp161-eng.txt,"c(""fp161a"", ""ex160"", ""ex105"")"
+fp161a-cym.txt,"c(""n161d"", ""n161"", ""fp202"", ""fp201"", ""fp161"", ""ex340"", ""ex160"", ""ex50"")"
+fp161a-eng.txt,"c(""n161d"", ""n161"", ""fp244"", ""fp202"", ""fp201"", ""fp200"", ""fp161"", ""ex340"", ""ex160"", ""ex50"")"
 fp161b-cym.txt,"c(""fp162a"", ""fp162"", ""ex340"")"
 fp161b-eng.txt,"c(""fp162a"", ""fp162"", ""ex340"")"
 fp162-cym.txt,"c(""fp244"", ""fp162a"")"
 fp162-eng.txt,"c(""fp244"", ""fp162a"")"
 fp162a-cym.txt,"c(""fp244"", ""fp200"", ""fp162"", ""ex340"", ""ex160"", ""ex50"")"
-fp162a-eng.txt,"c(""fp244"", ""fp200"", ""fp162"", ""ex340"", ""ex160"", ""ex50"", ""costs"")"
+fp162a-eng.txt,"c(""fp244"", ""fp200"", ""fp162"", ""ex340"", ""ex160"", ""ex50"")"
 fp1a-bil.txt,fp1
 fp1a-eng.txt,fp1
 fp1b-bil.txt,none detected
 fp1b-eng.txt,none detected
 fp2-bil.txt,a53
 fp2-eng.txt,a53
-fp200-cym.txt,"c(""n244"", ""n162"", ""n161"", ""n16(1)"", ""fp244"", ""fp162"", ""fp161"", ""ex160"")"
-fp200-eng.txt,"c(""n244"", ""n162"", ""n161"", ""n16(1)"", ""fp244"", ""fp162"", ""fp161"", ""ex160"")"
-fp201-cym.txt,"c(""n161"", ""n16(1)"", ""fp161"")"
-fp201-eng.txt,"c(""n161"", ""n16(1)"", ""fp161"", ""costs"")"
+fp200-cym.txt,"c(""n244"", ""n162"", ""n161"", ""fp244"", ""fp162"", ""fp161"", ""ex160"")"
+fp200-eng.txt,"c(""n244"", ""n162"", ""n161"", ""fp244"", ""fp162"", ""fp161"", ""ex160"")"
+fp201-cym.txt,"c(""n161"", ""fp161"")"
+fp201-eng.txt,"c(""n161"", ""fp161"")"
 fp202-cym.txt,"c(""fp201"", ""fp200"", ""fp161a"", ""fp161"", ""ex160"", ""ex105"", ""ex50"")"
-fp202-eng.txt,"c(""fp201"", ""fp200"", ""fp161a"", ""fp161"", ""ex160"", ""ex105"", ""ex50"", ""costs"")"
+fp202-eng.txt,"c(""fp201"", ""fp200"", ""fp161a"", ""fp161"", ""ex160"", ""ex105"", ""ex50"")"
 fp244-cym.txt,fp244a
-fp244-eng.txt,"c(""fp244a"", ""fee-account"")"
+fp244-eng.txt,fp244a
 fp244a-cym.txt,"c(""fp244"", ""ex160"")"
 fp244a-eng.txt,"c(""fp244"", ""ex160"")"
-fp25-eng.txt,"c(""fee-account"", ""costs"")"
-fp3-eng.txt,costs
+fp25-eng.txt,none detected
+fp3-eng.txt,none detected
 fp5-bil.txt,none detected
 fp5-eng.txt,none detected
 fp6-bil.txt,none detected
@@ -925,13 +925,13 @@ fp8-eng.txt,none detected
 fp9-bil.txt,none detected
 fp9-eng.txt,none detected
 ftc1-eng.txt,none detected
-ftc2-eng.txt,costs
-ftc2-notes-eng.txt,"c(""ftc2"", ""costs"")"
+ftc2-eng.txt,none detected
+ftc2-notes-eng.txt,ftc2
 ftc3-eng.txt,none detected
 ftc3-notes-eng.txt,ftc3
 gambling-application-for-fee-remission-for-companies-eng.txt,none detected
 gambling-guidance-on-fee-remission-for-companies-eng.txt,none detected
-getting-the-best-out-of-the-court-system-eng.txt,"c(""n325"", ""n293a"", ""n244"", ""n215"", ""n143"", ""n142"", ""n119"", ""n119a"", ""n121"", ""n16a"", ""n11r"", ""n11"", ""form-a"", ""costs"", ""n16"", ""form a"", ""n32(5)"", ""n49"", ""n54"", ""n146"", ""n147"", ""n148"", ""n206b"", ""ex96"")"
+getting-the-best-out-of-the-court-system-eng.txt,"c(""n325"", ""n293a"", ""n244"", ""n215"", ""n143"", ""n142"", ""n119"", ""n119a"", ""n121"", ""n16a"", ""n11r"", ""n11"", ""form-a"", ""n16"", ""form a"", ""n49"", ""n54"", ""n146"", ""n147"", ""n148"", ""n206b"", ""ex96"")"
 gmappeal-1-eng.txt,none detected
 gmappeal2-eng.txt,none detected
 going-to-a-magistrates-court-eng.txt,none detected
@@ -944,21 +944,21 @@ hq1-guardianship-eng_doc.txt,hq1
 hq2-eng_doc.txt,none detected
 iaa-eng_doc.txt,none detected
 iaft-1-eng.txt,t495
-iaft-1-guide-eng.txt,costs
+iaft-1-guide-eng.txt,none detected
 iaft-2-eng.txt,t495
-iaft-2-guide-eng.txt,costs
+iaft-2-guide-eng.txt,none detected
 iaft-3-eng.txt,t495
-iaft-3-guide-eng.txt,costs
+iaft-3-guide-eng.txt,none detected
 iaft-4-eng.txt,none detected
 iaft-4-guide-eng.txt,none detected
 iaft-5-eng.txt,t495
-iaft-5-guide-eng.txt,"c(""t495"", ""costs"")"
+iaft-5-guide-eng.txt,t495
 iaft-5(dia)-eng_doc.txt,none detected
 iaft-5(dia)-guide-eng.txt,none detected
 iaft-6-eng.txt,t495
-iaft-6-guide-eng.txt,"c(""t495"", ""costs"")"
+iaft-6-guide-eng.txt,t495
 iaft-7-eng.txt,t495
-iaft-7-guide-eng.txt,"c(""t495"", ""costs"")"
+iaft-7-guide-eng.txt,t495
 iaut1-eng.txt,none detected
 iaut1-guide-eng.txt,iaut1
 iaut3-eng_doc.txt,none detected
@@ -972,33 +972,33 @@ jr2-eng.txt,none detected
 jrc1-eng_doc.txt,none detected
 jrc1-eng.txt,none detected
 jrc1-notes-eng_doc.txt,"c(""jrc1"", ""jr1"")"
-juror-charter-eng.txt,"c(""costs"", ""allowances"")"
-jury-summons-form-eng.txt,allowances
+juror-charter-eng.txt,none detected
+jury-summons-form-eng.txt,none detected
 jury-summons-guide-eng.txt,none detected
-leasehold-1-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-leasehold-10-eng_doc.txt,"c(""leasehold-8"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-leasehold-11-eng_doc.txt,"c(""leasehold-8"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+leasehold-1-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
+leasehold-10-eng_doc.txt,"c(""leasehold-8"", ""ex160a"", ""ex160"", ""cb1"")"
+leasehold-11-eng_doc.txt,"c(""leasehold-8"", ""ex160a"", ""ex160"", ""cb1"")"
 leasehold-12-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 leasehold-13-eng_doc.txt,cb1
-leasehold-14-eng_doc.txt,"c(""costs"", ""cb1"")"
+leasehold-14-eng_doc.txt,cb1
 leasehold-15-eng_doc.txt,cb1
-leasehold-1a-eng_doc.txt,"c(""costs"", ""cb1"")"
-leasehold-2-eng_doc.txt,"c(""leasehold-7"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-leasehold-3-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-leasehold-4-eng_doc.txt,"c(""leasehold-7"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-leasehold-5-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+leasehold-1a-eng_doc.txt,cb1
+leasehold-2-eng_doc.txt,"c(""leasehold-7"", ""ex160a"", ""ex160"", ""cb1"")"
+leasehold-3-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
+leasehold-4-eng_doc.txt,"c(""leasehold-7"", ""ex160a"", ""ex160"", ""cb1"")"
+leasehold-5-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 leasehold-6-eng_doc.txt,"c(""leasehold-1"", ""ex160a"", ""ex160"", ""cb1"")"
-leasehold-7-eng_doc.txt,"c(""costs"", ""cb1"")"
-leasehold-8-eng_doc.txt,"c(""costs"", ""cb1"")"
+leasehold-7-eng_doc.txt,cb1
+leasehold-8-eng_doc.txt,cb1
 leasehold-9-eng_doc.txt,cb1
-loc002-eng.txt,"c(""n244"", ""costs"")"
-loc006-eng.txt,costs
+loc002-eng.txt,n244
+loc006-eng.txt,none detected
 loc009-eng.txt,none detected
-loc010-eng.txt,costs
+loc010-eng.txt,none detected
 loc013-eng_doc.txt,none detected
 loc014-eng.txt,"c(""ex160a"", ""ex160"")"
 loc040-eng_doc.txt,none detected
-loc045-eng_doc.txt,costs
+loc045-eng_doc.txt,none detected
 lpa-008-eng.txt,none detected
 lwfansau-cym.txt,none detected
 mc100-bil.txt,none detected
@@ -1022,22 +1022,22 @@ mc100-zho.txt,none detected
 mc102-eng.txt,none detected
 mc150-bil.txt,none detected
 mc150-eng.txt,none detected
-mcol-guide-eng.txt,"c(""n279"", ""n244"", ""n225a"", ""n225"", ""n215"", ""ex350"", ""ex345"", ""ex322"", ""ex321"", ""ex306"", ""ex304"", ""ex305"", ""ex301"", ""ex160a"", ""ex50"", ""costs"")"
-mercantile-directions-eng_doc.txt,costs
-mercantile-template-1-eng_doc.txt,costs
-mercantile-template-2-eng_doc.txt,costs
-mercantile-template-3-eng_doc.txt,costs
-mercantile-template-4-eng_doc.txt,costs
-mercantile-template-5-eng_doc.txt,costs
-mercantile-template-6-eng_doc.txt,"c(""costs"", ""5305"", ""5312"", ""5315"")"
-mps-expenses-notice-of-appeal-eng.txt,costs
+mcol-guide-eng.txt,"c(""n279"", ""n244"", ""n225a"", ""n225"", ""n215"", ""ex350"", ""ex345"", ""ex322"", ""ex321"", ""ex306"", ""ex304"", ""ex305"", ""ex301"", ""ex160a"", ""ex50"")"
+mercantile-directions-eng_doc.txt,none detected
+mercantile-template-1-eng_doc.txt,none detected
+mercantile-template-2-eng_doc.txt,none detected
+mercantile-template-3-eng_doc.txt,none detected
+mercantile-template-4-eng_doc.txt,none detected
+mercantile-template-5-eng_doc.txt,none detected
+mercantile-template-6-eng_doc.txt,none detected
+mps-expenses-notice-of-appeal-eng.txt,none detected
 mynd-i-lys-ynadon-cym.txt,none detected
-n1-bil.txt,"c(""fee-account"", ""costs"")"
-n1-eng.txt,"c(""fee-account"", ""costs"")"
-n1(cc)-eng.txt,costs
-n1(ccfl)-eng.txt,costs
-n1(chfl)-eng.txt,costs
-n1(fd)-bil.txt,costs
+n1-bil.txt,none detected
+n1-eng.txt,none detected
+n1(cc)-eng.txt,n1(cc)
+n1(ccfl)-eng.txt,n1(ccfl)
+n1(chfl)-eng.txt,n1(chfl)
+n1(fd)-bil.txt,n1(fd)
 n11-bil.txt,none detected
 n11-eng.txt,form-i
 n110a-cym.txt,none detected
@@ -1046,26 +1046,26 @@ n117-bil.txt,none detected
 n117-cym.txt,none detected
 n117-eng.txt,none detected
 n119-bil.txt,none detected
-n119-eng.txt,costs
+n119-eng.txt,none detected
 n119a-bil.txt,none detected
 n119a-eng.txt,n119
-n11b-bil.txt,"c(""costs"", ""n11(b)"")"
-n11b-eng.txt,"c(""costs"", ""n11(b)"")"
+n11b-bil.txt,none detected
+n11b-eng.txt,none detected
 n11d-bil.txt,none detected
 n11d-eng.txt,none detected
 n11m-bil.txt,none detected
-n11m-eng.txt,allowances
+n11m-eng.txt,none detected
 n11r-bil.txt,none detected
-n11r-eng.txt,allowances
+n11r-eng.txt,none detected
 n120-bil.txt,none detected
-n120-eng.txt,costs
+n120-eng.txt,none detected
 n121-bil.txt,none detected
-n121-eng.txt,costs
+n121-eng.txt,none detected
 n122-bil.txt,none detected
 n122-eng.txt,none detected
 n123-eng.txt,none detected
 n130-bil.txt,none detected
-n130-eng.txt,fee-account
+n130-eng.txt,none detected
 n133-bil.txt,none detected
 n133-eng.txt,none detected
 n139-eng.txt,none detected
@@ -1077,25 +1077,25 @@ n149b-eng.txt,"c(""n181"", ""ex50"")"
 n149c-eng.txt,"c(""n181"", ""ex50"")"
 n15-bil.txt,none detected
 n15-eng.txt,none detected
-n150-bil.txt,"c(""pf52"", ""ex305"", ""costs"")"
-n151-bil.txt,costs
-n154-eng.txt,costs
-n155-eng.txt,"c(""ex305"", ""costs"")"
-n157-eng.txt,"c(""ex306"", ""costs"")"
-n159-eng.txt,costs
+n150-bil.txt,"c(""pf52"", ""ex305"")"
+n151-bil.txt,none detected
+n154-eng.txt,none detected
+n155-eng.txt,ex305
+n157-eng.txt,ex306
+n159-eng.txt,none detected
 n16-eng.txt,none detected
-n16(1)-eng.txt,n16
-n161-bil.txt,"c(""n161a"", ""n16(1)"")"
-n161-eng.txt,"c(""n161a"", ""n16(1)"", ""fee-account"", ""costs"")"
-n161a-bil.txt,"c(""n460"", ""n164"", ""n161"", ""n16(1)"", ""ex340"")"
+n16(1)-eng.txt,"c(""n16(1)"", ""n16"")"
+n161-bil.txt,n161a
+n161-eng.txt,n161a
+n161a-bil.txt,"c(""n460"", ""n164"", ""n161"", ""ex340"")"
 n161a-cym.txt,"c(""n460"", ""n244"")"
-n161a-eng.txt,"c(""n460hc"", ""n460"", ""n244"", ""n164"", ""n161"", ""n16(1)"", ""fp161"", ""form-207"", ""form-204"", ""ex340"", ""costs"")"
+n161a-eng.txt,"c(""n460hc"", ""n460"", ""n244"", ""n164"", ""n161"", ""fp161"", ""form-207"", ""form-204"", ""ex340"")"
 n161b-bil.txt,none detected
 n161b-eng.txt,"c(""n163"", ""n162"")"
-n161c-bil.txt,"c(""n161a"", ""n161"", ""n16(1)"")"
-n161c-eng.txt,"c(""n161"", ""n16(1)"")"
+n161c-bil.txt,"c(""n161a"", ""n161"")"
+n161c-eng.txt,n161
 n161d-cym.txt,none detected
-n161d-eng.txt,"c(""n244"", ""n161"", ""n16(1)"", ""fp201"", ""fp161a"", ""fp161"", ""ex340"", ""ex160"", ""costs"")"
+n161d-eng.txt,"c(""n244"", ""n161"", ""fp201"", ""fp161a"", ""fp161"", ""ex340"", ""ex160"")"
 n162-bil.txt,none detected
 n162-eng.txt,n244
 n162a-bil.txt,none detected
@@ -1103,71 +1103,71 @@ n162a-eng.txt,none detected
 n163-bil.txt,none detected
 n164-bil.txt,n460
 n164-eng.txt,n460
-n16a-bil.txt,costs
-n16a-eng.txt,"c(""fee-account"", ""costs"")"
-n170-bil.txt,"c(""fee-account"", ""costs"")"
-n170-eng.txt,"c(""fee-account"", ""costs"")"
-n172-eng.txt,costs
-n180-bil.txt,"c(""n149a"", ""ex342"", ""ex306"", ""costs"")"
-n180-eng.txt,"c(""n149a"", ""ex342"", ""ex306"", ""costs"")"
-n181-bil.txt,"c(""n263"", ""ex305"", ""costs"")"
-n181-eng.txt,"c(""n263"", ""ex305"", ""costs"")"
-n182-eng_doc.txt,"c(""n244"", ""costs"")"
+n16a-bil.txt,none detected
+n16a-eng.txt,none detected
+n170-bil.txt,none detected
+n170-eng.txt,none detected
+n172-eng.txt,none detected
+n180-bil.txt,"c(""n149a"", ""ex342"", ""ex306"")"
+n180-eng.txt,"c(""n149a"", ""ex342"", ""ex306"")"
+n181-bil.txt,"c(""n263"", ""ex305"")"
+n181-eng.txt,"c(""n263"", ""ex305"")"
+n182-eng_doc.txt,n244
 n1a-bil.txt,none detected
-n1a-eng.txt,costs
-n1c-bil.txt,costs
-n1c-eng.txt,costs
-n1c(cc)-eng.txt,n1c
-n1c(ccchfl)-eng.txt,"c(""n1c"", ""costs"")"
-n1d-bil.txt,"c(""n9a"", ""n9c"", ""n9b"", ""n9d"", ""costs"")"
-n1d-eng.txt,costs
-n1fd-eng.txt,"c(""n9c"", ""n9d"", ""costs"")"
-n1sdt-eng.txt,"c(""n9a"", ""n9b"", ""costs"")"
+n1a-eng.txt,none detected
+n1c-bil.txt,none detected
+n1c-eng.txt,none detected
+n1c(cc)-eng.txt,"c(""n1c"", ""n1c(cc)"")"
+n1c(ccchfl)-eng.txt,"c(""n9(ccfl)"", ""n1c"", ""n1c(ccchfl)"")"
+n1d-bil.txt,"c(""n9a"", ""n9c"", ""n9b"", ""n9d"")"
+n1d-eng.txt,none detected
+n1fd-eng.txt,"c(""n9c"", ""n9d"", ""n1(fd)"")"
+n1sdt-eng.txt,"c(""n9a"", ""n9b"")"
 n2-bil.txt,none detected
-n2-eng.txt,"c(""fee-account"", ""costs"")"
+n2-eng.txt,none detected
 n20-bil.txt,none detected
-n20-eng.txt,"c(""fee-account"", ""costs"")"
-n205a-eng.txt,costs
+n20-eng.txt,none detected
+n205a-eng.txt,none detected
 n205d-eng.txt,none detected
-n208-bil.txt,"c(""fee-account"", ""costs"")"
-n208-eng.txt,"c(""fee-account"", ""costs"")"
-n208(cc)-eng.txt,"c(""n208"", ""costs"")"
-n208(ccfl)-eng.txt,"c(""n208"", ""costs"")"
-n208(chfl)-eng.txt,"c(""n208"", ""costs"")"
+n208-bil.txt,none detected
+n208-eng.txt,none detected
+n208(cc)-eng.txt,"c(""n208"", ""n208(cc)"")"
+n208(ccfl)-eng.txt,"c(""n208"", ""n208(ccfl)"")"
+n208(chfl)-eng.txt,"c(""n208"", ""n208(chfl)"")"
 n208a-bil.txt,none detected
 n208a-eng.txt,none detected
 n208c-bil.txt,none detected
 n208c-eng.txt,none detected
-n208c(cc)-bil.txt,n208c
-n208c(cc)-eng.txt,n208c
-n208pc-eng.txt,costs
+n208c(cc)-bil.txt,"c(""n208c(cc)"", ""n208c"")"
+n208c(cc)-eng.txt,"c(""n208c(cc)"", ""n208c"")"
+n208pc-eng.txt,none detected
 n209a-eng.txt,none detected
 n210-bil.txt,none detected
 n210-eng.txt,none detected
-n210(cc)-eng.txt,n210
-n210(ccfl)-eng.txt,n210
-n210(chfl)-eng.txt,n210
+n210(cc)-eng.txt,"c(""n210"", ""n210(cc)"")"
+n210(ccfl)-eng.txt,"c(""n210(ccfl)"", ""n210"")"
+n210(chfl)-eng.txt,"c(""n210"", ""n210(chfl)"")"
 n210a-bil.txt,none detected
-n210a-eng.txt,costs
+n210a-eng.txt,none detected
 n210b-eng.txt,none detected
 n210c-eng.txt,none detected
 n210pc-eng.txt,n464
-n211-bil.txt,costs
-n211-eng.txt,"c(""fee-account"", ""costs"")"
-n211(cc)-eng.txt,"c(""n211"", ""costs"")"
-n211(ccfl)-eng.txt,"c(""n211"", ""costs"")"
-n211(chfl)-eng.txt,"c(""n211"", ""costs"")"
-n211a-eng.txt,costs
+n211-bil.txt,none detected
+n211-eng.txt,none detected
+n211(cc)-eng.txt,"c(""n211"", ""n211(cc)"")"
+n211(ccfl)-eng.txt,"c(""n211"", ""n211(ccfl)"")"
+n211(chfl)-eng.txt,"c(""n211"", ""n211(chfl)"")"
+n211a-eng.txt,none detected
 n211c-bil.txt,none detected
-n211c-eng.txt,"c(""n244"", ""n213"", ""n9a"", ""n9c"", ""n9b"", ""n9d"", ""costs"")"
-n211c(cc)-eng.txt,n211c
-n211c(cc)-nodiadau-cym.txt,n211c
+n211c-eng.txt,"c(""n244"", ""n213"", ""n9a"", ""n9c"", ""n9b"", ""n9d"")"
+n211c(cc)-eng.txt,"c(""n211c(cc)"", ""n211c"")"
+n211c(cc)-nodiadau-cym.txt,"c(""n211c(cc)"", ""n211c"")"
 n213-bil.txt,none detected
 n213-eng.txt,none detected
 n213(cc)-bil.txt,none detected
-n213(cc)-eng.txt,n213
-n213(ccfl)-eng.txt,n213
-n213(chfl)-eng.txt,n213
+n213(cc)-eng.txt,"c(""n213"", ""n213(cc)"")"
+n213(ccfl)-eng.txt,"c(""n213"", ""n213(ccfl)"")"
+n213(chfl)-eng.txt,"c(""n213"", ""n213(chfl)"")"
 n215-bil.txt,none detected
 n215-eng.txt,none detected
 n215pc-eng.txt,n215
@@ -1178,72 +1178,72 @@ n219a-eng.txt,none detected
 n224-bil.txt,none detected
 n224-eng.txt,none detected
 n225-bil.txt,none detected
-n225-eng.txt,"c(""n9a"", ""costs"")"
-n225a-eng.txt,"c(""n9a"", ""n9b"", ""costs"")"
+n225-eng.txt,n9a
+n225a-eng.txt,"c(""n9a"", ""n9b"")"
 n226-eng.txt,none detected
 n227-bil.txt,none detected
-n227-eng.txt,costs
+n227-eng.txt,none detected
 n228-cym.txt,none detected
-n228-eng.txt,costs
+n228-eng.txt,none detected
 n235-bil.txt,none detected
-n235-eng.txt,costs
+n235-eng.txt,none detected
 n24-eng.txt,none detected
 n242-bil.txt,none detected
 n242-eng.txt,n242a
-n242a-bil.txt,costs
-n242a-eng.txt,costs
-n244-bil.txt,"c(""fee-account"", ""n244notes"")"
-n244-eng.txt,"c(""fee-account"", ""n244notes"")"
+n242a-bil.txt,none detected
+n242a-eng.txt,none detected
+n244-bil.txt,n244notes
+n244-eng.txt,n244notes
 n244-nodiadau-n244-notes-bil.txt,n244
 n244-notes-eng.txt,"c(""n244"", ""ex160a"")"
-n244(cc)-eng.txt,n244
-n244(ccfl)-eng.txt,n244
-n244(chfl)-eng.txt,n244
-n245-bil.txt,fee-account
-n245-eng.txt,fee-account
+n244(cc)-eng.txt,"c(""n244(cc)"", ""n244"")"
+n244(ccfl)-eng.txt,"c(""n244(ccfl)"", ""n244"")"
+n244(chfl)-eng.txt,"c(""n244(chfl)"", ""n244"")"
+n245-bil.txt,none detected
+n245-eng.txt,none detected
 n251-bil.txt,none detected
 n251-eng.txt,none detected
-n252-eng.txt,costs
+n252-eng.txt,none detected
 n253-bil.txt,none detected
-n253a-eng.txt,costs
-n254-eng.txt,"c(""fee-account"", ""costs"")"
+n253a-eng.txt,none detected
+n254-eng.txt,none detected
 n255(cc)-cym.txt,none detected
-n255(cc)-eng.txt,"c(""costs"", ""n255"")"
+n255(cc)-eng.txt,n255
 n255(hc)-cym.txt,none detected
-n255(hc)-eng.txt,costs
+n255(hc)-eng.txt,none detected
 n256(cc)-cym.txt,none detected
-n256(cc)-eng.txt,"c(""costs"", ""n256"")"
-n256(hc)-eng.txt,"c(""costs"", ""n256"")"
+n256(cc)-eng.txt,n256
+n256(hc)-eng.txt,n256
 n258-bil.txt,none detected
-n258-eng.txt,"c(""fee-account"", ""costs"")"
+n258-eng.txt,none detected
 n258a-bil.txt,none detected
-n258a-eng.txt,costs
+n258a-eng.txt,none detected
 n258b-bil.txt,none detected
-n258b-eng.txt,costs
+n258b-eng.txt,none detected
 n258c-bil.txt,none detected
-n258c-eng.txt,costs
-n259-eng.txt,costs
+n258c-eng.txt,none detected
+n259-eng.txt,none detected
 n260-bil.txt,none detected
-n260-eng.txt,costs
+n260-eng.txt,none detected
 n261-eng.txt,none detected
-n263-eng.txt,"c(""n264"", ""costs"")"
+n263-eng.txt,n264
 n264-bil_doc.txt,none detected
 n264-eng_doc.txt,none detected
 n265-bil.txt,none detected
 n265-eng.txt,none detected
 n265(cc)-eng.txt,none detected
-n265(ccfl)-eng.txt,n265
-n265(chfl)-eng.txt,n265
+n265(ccfl)-eng.txt,"c(""n265(ccfl)"", ""n265"")"
+n265(chfl)-eng.txt,"c(""n265(chfl)"", ""n265"")"
 n266-eng.txt,none detected
 n268-eng.txt,none detected
 n270-cym.txt,none detected
-n270-eng.txt,"c(""n92"", ""costs"")"
+n270-eng.txt,n92
 n279-eng.txt,none detected
 n285-bil.txt,none detected
 n285-eng.txt,none detected
-n292-eng.txt,costs
+n292-eng.txt,none detected
 n293a-bil.txt,none detected
-n293a-eng.txt,costs
+n293a-eng.txt,none detected
 n294-bil.txt,none detected
 n294-eng.txt,none detected
 n2a-bil.txt,none detected
@@ -1251,44 +1251,44 @@ n2a-eng.txt,none detected
 n2b-eng.txt,none detected
 n3-bil.txt,none detected
 n3-eng.txt,none detected
-n30-eng.txt,costs
-n30(ch)-eng.txt,"c(""n30"", ""costs"")"
+n30-eng.txt,none detected
+n30(ch)-eng.txt,n30
 n316-bil.txt,none detected
 n316-cym.txt,ex140
-n316-eng.txt,"c(""fee-account"", ""ex140"", ""costs"")"
-n316a-bil.txt,"c(""ex141"", ""costs"")"
-n316a-eng.txt,"c(""fee-account"", ""ex141"", ""costs"")"
-n322a-bil.txt,costs
-n322a-eng.txt,costs
-n322a-guidance-notes-eng.txt,"c(""n322a"", ""costs"")"
-n322a-nodiadau-n322a-notes-bil.txt,"c(""n322a"", ""costs"")"
-n322b-bil.txt,"c(""n322a"", ""costs"")"
-n322b-eng.txt,"c(""n322a"", ""costs"")"
-n322b-guidance-notes-eng.txt,"c(""n322b"", ""costs"")"
-n322b-nodiadau-n322b-notes-bil.txt,"c(""n322b"", ""costs"")"
-n323-bil.txt,"c(""costs"", ""n32(3)"")"
-n323-eng.txt,"c(""fee-account"", ""costs"", ""n32(3)"")"
+n316-eng.txt,ex140
+n316a-bil.txt,ex141
+n316a-eng.txt,ex141
+n322a-bil.txt,none detected
+n322a-eng.txt,none detected
+n322a-guidance-notes-eng.txt,n322a
+n322a-nodiadau-n322a-notes-bil.txt,n322a
+n322b-bil.txt,n322a
+n322b-eng.txt,n322a
+n322b-guidance-notes-eng.txt,n322b
+n322b-nodiadau-n322b-notes-bil.txt,n322b
+n323-bil.txt,none detected
+n323-eng.txt,none detected
 n324-bil.txt,none detected
-n324-eng.txt,"c(""fee-account"", ""costs"", ""n32(4)"")"
-n325-bil.txt,n32(5)
-n325-eng.txt,"c(""fee-account"", ""costs"", ""n32(5)"")"
-n325a-eng.txt,"c(""fee-account"", ""costs"")"
+n324-eng.txt,none detected
+n325-bil.txt,none detected
+n325-eng.txt,none detected
+n325a-eng.txt,none detected
 n331-eng_doc.txt,none detected
 n336-bil.txt,none detected
 n336-eng.txt,none detected
-n337-bil.txt,"c(""fee-account"", ""costs"")"
-n337-eng.txt,"c(""fee-account"", ""costs"")"
+n337-bil.txt,none detected
+n337-eng.txt,none detected
 n342-bil.txt,none detected
-n342-eng.txt,costs
-n344-eng.txt,costs
+n342-eng.txt,none detected
+n344-eng.txt,none detected
 n349-bil.txt,none detected
-n349-eng.txt,"c(""fee-account"", ""costs"")"
-n358-eng_doc.txt,costs
-n379-bil.txt,"c(""fee-account"", ""ex325"", ""ex160"", ""costs"")"
-n379-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"", ""costs"")"
+n349-eng.txt,none detected
+n358-eng_doc.txt,none detected
+n379-bil.txt,"c(""fee-account"", ""ex325"", ""ex160"")"
+n379-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"")"
 n380-cym.txt,"c(""ex325"", ""ex160"")"
-n380-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"", ""costs"")"
-n39-eng.txt,costs
+n380-eng.txt,"c(""fee-account"", ""ex325"", ""ex160"")"
+n39-eng.txt,none detected
 n434-bil.txt,none detected
 n434-eng.txt,none detected
 n440-bil.txt,none detected
@@ -1297,17 +1297,17 @@ n441-bil.txt,none detected
 n441-eng.txt,none detected
 n443-bil.txt,none detected
 n443-eng.txt,none detected
-n445-bil.txt,costs
-n445-eng.txt,"c(""fee-account"", ""costs"")"
+n445-bil.txt,none detected
+n445-eng.txt,none detected
 n446-bil.txt,none detected
-n446-eng.txt,costs
+n446-eng.txt,none detected
 n460-eng.txt,none detected
 n460hc-eng.txt,none detected
-n461-bil.txt,costs
-n461-eng.txt,"c(""n463"", ""costs"")"
+n461-bil.txt,none detected
+n461-eng.txt,n463
 n461-nodiadau-n461-notes-bil.txt,n461
-n461-notes-eng.txt,costs
-n461pc-eng.txt,"c(""n463pc"", ""costs"")"
+n461-notes-eng.txt,none detected
+n461pc-eng.txt,n463pc
 n462-bil.txt,none detected
 n462-eng.txt,n464
 n462pc-eng.txt,n464pc
@@ -1320,12 +1320,12 @@ n464pc-eng.txt,none detected
 n465-bil.txt,n464
 n465-eng.txt,n464
 n465pc-eng.txt,n464pc
-n471-bil.txt,costs
-n471-eng.txt,"c(""fee-account"", ""costs"")"
-n471a-eng.txt,"c(""fee-account"", ""costs"")"
-n5-bil.txt,costs
-n5-eng.txt,"c(""fee-account"", ""costs"")"
-n500-eng.txt,"c(""fee-account"", ""costs"")"
+n471-bil.txt,none detected
+n471-eng.txt,none detected
+n471a-eng.txt,none detected
+n5-bil.txt,none detected
+n5-eng.txt,none detected
+n500-eng.txt,none detected
 n500a-eng.txt,none detected
 n500b-eng.txt,none detected
 n501-eng.txt,none detected
@@ -1339,35 +1339,35 @@ n510-eng.txt,n1d
 n56-bil.txt,none detected
 n56-eng.txt,none detected
 n5a-bil.txt,none detected
-n5a-eng.txt,"c(""fee-account"", ""costs"")"
-n5b-bil.txt,"c(""n11b"", ""fee-account"", ""costs"", ""n11(b)"")"
-n5b-eng.txt,"c(""n11b"", ""fee-account"", ""costs"", ""n11(b)"")"
-n5c-bil.txt,"c(""form-a"", ""costs"", ""form a"")"
+n5a-eng.txt,none detected
+n5b-bil.txt,n11b
+n5b-eng.txt,n11b
+n5c-bil.txt,"c(""form-a"", ""form a"")"
 n6-bil.txt,none detected
-n6-eng.txt,"c(""fee-account"", ""costs"")"
-n67-eng.txt,costs
+n6-eng.txt,none detected
+n67-eng.txt,none detected
 n7-bil.txt,none detected
-n7-eng.txt,costs
+n7-eng.txt,none detected
 n77-eng.txt,none detected
 n7a-bil.txt,none detected
-n7a-eng.txt,"c(""n244"", ""costs"")"
+n7a-eng.txt,n244
 n7b-bil.txt,none detected
-n7b-eng.txt,"c(""n244"", ""costs"")"
+n7b-eng.txt,n244
 n7d-bil.txt,none detected
-n7d-eng.txt,costs
-n8-eng.txt,costs
-n86-eng.txt,costs
-n87-eng.txt,costs
+n7d-eng.txt,none detected
+n8-eng.txt,none detected
+n86-eng.txt,none detected
+n87-eng.txt,none detected
 n8a-bil.txt,none detected
 n8a-eng.txt,n15
 n8b-bil.txt,none detected
 n8b-eng.txt,none detected
 n9-bil.txt,"c(""n9a"", ""n9c"", ""n9b"", ""n9d"")"
 n9-eng.txt,"c(""n9a"", ""n9c"", ""n9b"", ""n9d"")"
-n9(cc)-bil.txt,none detected
-n9(cc)-eng.txt,none detected
+n9(cc)-bil.txt,n9(cc)
+n9(cc)-eng.txt,n9(cc)
 n9(ccch)-eng.txt,none detected
-n9(ccfl)-eng.txt,none detected
+n9(ccfl)-eng.txt,n9(ccfl)
 n92-bil.txt,none detected
 n92-eng.txt,n270
 n93-bil.txt,none detected
@@ -1403,7 +1403,7 @@ pa7-cym.txt,"c(""pa9"", ""pa10"", ""pa8a"", ""pa8"", ""pa7a"", ""pa3"", ""pa5"",
 pa7-eng.txt,"c(""pa9"", ""pa10"", ""pa8a"", ""pa8"", ""pa7a"", ""pa3"", ""pa5"", ""pa4"", ""pa6"", ""pa2"", ""pa1s"", ""pa1a"")"
 pa7a-eng.txt,none detected
 pa8-cym.txt,"c(""pa9"", ""pa10"", ""pa8a"", ""pa7a"", ""pa3"", ""pa5"", ""pa4"", ""pa7"", ""pa6"", ""pa2"", ""pa1"", ""pa1s"", ""pa1a"")"
-pa8-eng.txt,"c(""pa9"", ""pa10"", ""pa8a"", ""pa7a"", ""pa3"", ""pa4"", ""pa7"", ""pa2"", ""pa1s"", ""pa1a"", ""costs"")"
+pa8-eng.txt,"c(""pa9"", ""pa10"", ""pa8a"", ""pa7a"", ""pa3"", ""pa4"", ""pa7"", ""pa2"", ""pa1s"", ""pa1a"")"
 pa8a-eng.txt,none detected
 pa9-cym.txt,"c(""pa10"", ""pa8a"", ""pa8"", ""pa7a"", ""pa3"", ""pa5"", ""pa4"", ""pa7"", ""pa6"", ""pa2"", ""pa1"", ""pa1s"", ""pa1a"")"
 pa97-bil_doc.txt,"c(""pa1"", ""pa1s"")"
@@ -1424,7 +1424,7 @@ pf105-eng_doc.txt,none detected
 pf106-eng_doc.txt,none detected
 pf11-eng_doc.txt,n244
 pf113-eng_doc.txt,none detected
-pf120a-eng.txt,fee-account
+pf120a-eng.txt,none detected
 pf120b-eng_doc.txt,pf120a
 pf130-eng_doc.txt,none detected
 pf141-eng_doc.txt,none detected
@@ -1434,7 +1434,7 @@ pf149-eng_doc.txt,n244
 pf150-eng_doc.txt,none detected
 pf152-eng_doc.txt,none detected
 pf153-eng_doc.txt,none detected
-pf154-eng_doc.txt,costs
+pf154-eng_doc.txt,none detected
 pf156-eng_doc.txt,none detected
 pf157-eng_doc.txt,none detected
 pf159a-eng_doc.txt,none detected
@@ -1443,104 +1443,104 @@ pf159c-eng_doc.txt,none detected
 pf159d-eng_doc.txt,none detected
 pf159e-eng_doc.txt,none detected
 pf16-eng_doc.txt,none detected
-pf160-eng_doc.txt,costs
+pf160-eng_doc.txt,none detected
 pf163-eng_doc.txt,none detected
 pf164a-eng_doc.txt,none detected
 pf164b-eng_doc.txt,none detected
 pf165-eng_doc.txt,none detected
 pf166-eng_doc.txt,none detected
-pf167-eng_doc.txt,costs
-pf168-eng_doc.txt,costs
-pf168a-eng_doc.txt,costs
+pf167-eng_doc.txt,none detected
+pf168-eng_doc.txt,none detected
+pf168a-eng_doc.txt,none detected
 pf17-eng_doc.txt,none detected
 pf170a-eng_doc.txt,"c(""n292"", ""n208"")"
 pf170b-eng_doc.txt,"c(""n292"", ""n244"")"
 pf172-eng_doc.txt,none detected
-pf177-eng_doc.txt,costs
+pf177-eng_doc.txt,none detected
 pf179-eng_doc.txt,none detected
 pf180-eng_doc.txt,none detected
 pf180a-eng_doc.txt,none detected
 pf180b-eng_doc.txt,none detected
 pf181-eng_doc.txt,none detected
 pf182-eng_doc.txt,none detected
-pf183-eng_doc.txt,costs
+pf183-eng_doc.txt,none detected
 pf184-eng_doc.txt,n208
 pf185-eng_doc.txt,none detected
 pf186-eng_doc.txt,none detected
-pf187-eng_doc.txt,"c(""n208"", ""costs"")"
-pf188-eng_doc.txt,costs
-pf19-eng_doc.txt,costs
-pf197-eng_doc.txt,"c(""n244"", ""costs"")"
-pf198-eng_doc.txt,costs
-pf2-eng_doc.txt,costs
-pf205-eng_doc.txt,costs
+pf187-eng_doc.txt,n208
+pf188-eng_doc.txt,none detected
+pf19-eng_doc.txt,none detected
+pf197-eng_doc.txt,n244
+pf198-eng_doc.txt,none detected
+pf2-eng_doc.txt,none detected
+pf205-eng_doc.txt,none detected
 pf20a-eng_doc.txt,n244
 pf20b-eng_doc.txt,n244
 pf21-eng_doc.txt,none detected
-pf22-eng_doc.txt,costs
+pf22-eng_doc.txt,none detected
 pf23-eng_doc.txt,none detected
 pf24-eng_doc.txt,none detected
 pf244-bil_doc.txt,none detected
 pf244-eng_doc.txt,none detected
 pf25-eng_doc.txt,"c(""n244"", ""n208"")"
 pf26-eng_doc.txt,n244
-pf27-eng_doc.txt,"c(""n244"", ""costs"")"
-pf28-eng_doc.txt,costs
-pf29-eng_doc.txt,costs
+pf27-eng_doc.txt,n244
+pf28-eng_doc.txt,none detected
+pf29-eng_doc.txt,none detected
 pf3-eng_doc.txt,n244
-pf30-eng_doc.txt,costs
-pf31-eng_doc.txt,costs
-pf32-eng_doc.txt,costs
-pf34-eng_doc.txt,costs
-pf4-eng_doc.txt,costs
-pf43-eng_doc.txt,"c(""n244"", ""costs"")"
-pf44-eng_doc.txt,costs
+pf30-eng_doc.txt,none detected
+pf31-eng_doc.txt,none detected
+pf32-eng_doc.txt,none detected
+pf34-eng_doc.txt,none detected
+pf4-eng_doc.txt,none detected
+pf43-eng_doc.txt,n244
+pf44-eng_doc.txt,none detected
 pf48-eng_doc.txt,none detected
 pf49-eng.txt,none detected
-pf5-eng_doc.txt,costs
+pf5-eng_doc.txt,none detected
 pf50-eng.txt,"c(""pf244"", ""pf52"", ""n244"")"
-pf52-eng_doc.txt,costs
-pf52a-eng_doc.txt,"c(""pf52"", ""costs"")"
-pf53-eng_doc.txt,costs
+pf52-eng_doc.txt,none detected
+pf52a-eng_doc.txt,pf52
+pf53-eng_doc.txt,none detected
 pf56-eng_doc.txt,none detected
-pf57-eng_doc.txt,"c(""n244"", ""costs"")"
-pf58-eng_doc.txt,costs
+pf57-eng_doc.txt,n244
+pf58-eng_doc.txt,none detected
 pf63-eng_doc.txt,none detected
-pf67-eng_doc.txt,costs
-pf68-eng_doc.txt,costs
+pf67-eng_doc.txt,none detected
+pf68-eng_doc.txt,none detected
 pf6a-eng_doc.txt,n244
 pf6b-eng_doc.txt,none detected
-pf71-eng_doc.txt,costs
+pf71-eng_doc.txt,none detected
 pf72-eng_doc.txt,none detected
-pf74-eng_doc.txt,costs
+pf74-eng_doc.txt,none detected
 pf78-eng_doc.txt,none detected
 pf7a-eng_doc.txt,none detected
 pf7b-eng_doc.txt,none detected
-pf8-eng_doc.txt,"c(""n181"", ""costs"")"
-pf83-eng_doc.txt,costs
-pf84a-eng_doc.txt,costs
-pf84b-eng_doc.txt,costs
+pf8-eng_doc.txt,n181
+pf83-eng_doc.txt,none detected
+pf84a-eng_doc.txt,none detected
+pf84b-eng_doc.txt,none detected
 pf84c-eng_doc.txt,n244
-pf84d-eng_doc.txt,costs
+pf84d-eng_doc.txt,none detected
 pf85a-eng_doc.txt,n244
-pf85b-eng_doc.txt,costs
-pf86-eng_doc.txt,costs
-pf86a-eng_doc.txt,costs
+pf85b-eng_doc.txt,none detected
+pf86-eng_doc.txt,none detected
+pf86a-eng_doc.txt,none detected
 pf87-eng_doc.txt,none detected
 pf88-eng_doc.txt,none detected
-pf89-eng_doc.txt,costs
+pf89-eng_doc.txt,none detected
 pf9-eng.txt,n244
 pf90a-eng_doc.txt,none detected
 pf90b-eng_doc.txt,none detected
 pf90c-eng_doc.txt,none detected
 pf91-eng_doc.txt,n244
 pf92-eng_doc.txt,none detected
-pf97-eng_doc.txt,costs
+pf97-eng_doc.txt,none detected
 ph1-eng_doc.txt,"c(""ph15"", ""ph14"", ""ex160a"", ""ex160"", ""cb1"")"
-ph10-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+ph10-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph11-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph12-eng_doc.txt,"c(""ph4"", ""ex160a"", ""ex160"", ""cb1"")"
-ph13-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
+ph13-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph14-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph15-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph16-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
@@ -1554,10 +1554,10 @@ ph5-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph6-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph7-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
 ph8-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
-ph9-eng_doc.txt,"c(""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-phl-guide-eng.txt,costs
-pl1-eng.txt,costs
-pl2-eng.txt,costs
+ph9-eng_doc.txt,"c(""ex160a"", ""ex160"", ""cb1"")"
+phl-guide-eng.txt,none detected
+pl1-eng.txt,none detected
+pl2-eng.txt,none detected
 plo1-eng_doc.txt,none detected
 plo2-eng_doc.txt,none detected
 plo3-eng_doc.txt,"c(""c23"", ""c22"", ""c49"")"
@@ -1566,21 +1566,21 @@ plo5-eng.txt,none detected
 plo6-eng.txt,none detected
 plo8-eng_doc.txt,none detected
 plo9-eng_doc.txt,none detected
-plp10-eng_doc.txt,costs
+plp10-eng_doc.txt,none detected
 poac1-eng.txt,none detected
 ppf-bil.txt,form-ppf
 ppf1-bil.txt,"c(""ppf"", ""form-ppf1"", ""form-ppf"")"
 ppf2-bil.txt,"c(""ppf"", ""form-ppf2"")"
 pra-cancellation-form-eng_doc.txt,none detected
-pra-form-eng_doc.txt,costs
-pre-trial-checklist-eng_doc.txt,"c(""form-h"", ""costs"")"
-precedent-h-guidance-notes-eng_doc.txt,costs
+pra-form-eng_doc.txt,none detected
+pre-trial-checklist-eng_doc.txt,form-h
+precedent-h-guidance-notes-eng_doc.txt,none detected
 progress-monitoring-information-sheet-eng_doc.txt,d12
 qbd-oha-eng_doc.txt,none detected
 remo-10-eng_doc.txt,none detected
 remo-11-eng_doc.txt,none detected
 remo-12-eng_doc.txt,none detected
-remo-13-eng_doc.txt,"c(""costs"", ""allowances"")"
+remo-13-eng_doc.txt,none detected
 remo-20-eng.txt,remo20
 remo-7-eng.txt,none detected
 remo-7-notes-eng.txt,none detected
@@ -1589,37 +1589,37 @@ remo-8-notes-eng.txt,none detected
 remo-9-eng_doc.txt,none detected
 remo20-cym.txt,none detected
 rent-3-eng.txt,none detected
-rents-1-eng_doc.txt,"c(""costs"", ""cb1"")"
-rents-2-eng_doc.txt,"c(""costs"", ""cb1"")"
-rents-3-eng_doc.txt,"c(""costs"", ""cb1"")"
-rta1-eng.txt,costs
-rta2-eng.txt,costs
+rents-1-eng_doc.txt,cb1
+rents-2-eng_doc.txt,cb1
+rents-3-eng_doc.txt,cb1
+rta1-eng.txt,none detected
+rta2-eng.txt,none detected
 rta3-eng.txt,none detected
-rta4-eng.txt,costs
-rta5-eng.txt,costs
-rta6-rta-7-eng.txt,costs
-scco-eng.txt,"c(""n258"", ""n254"", ""n252"", ""costs"", ""n255"")"
+rta4-eng.txt,none detected
+rta5-eng.txt,none detected
+rta6-rta-7-eng.txt,none detected
+scco-eng.txt,"c(""n258"", ""n254"", ""n252"", ""n255"")"
 sd1-eng_doc.txt,form-4
 sd2-eng_doc.txt,none detected
 sd3-eng_doc.txt,none detected
-sd4-eng_doc.txt,costs
+sd4-eng_doc.txt,none detected
 secure-data-transfer-eng.txt,none detected
-send1-eng.txt,"c(""costs"", ""n19"", ""5050"", ""5142"")"
+send1-eng.txt,n19
 send10-eng.txt,none detected
 send11-eng.txt,none detected
 send11yp-eng.txt,send7
 send12-eng.txt,none detected
-send14-eng.txt,costs
-send15-eng.txt,"c(""send17"", ""send16"", ""costs"")"
+send14-eng.txt,none detected
+send15-eng.txt,"c(""send17"", ""send16"")"
 send15a-eng.txt,send17
 send15ayp-eng.txt,none detected
-send15yp-eng.txt,"c(""send16"", ""costs"")"
-send16-eng.txt,"c(""send17"", ""costs"")"
+send15yp-eng.txt,send16
+send16-eng.txt,send17
 send16a-eng.txt,"c(""send17"", ""send15a"")"
 send17-eng.txt,"c(""send15a"", ""send16a"")"
 send18-eng.txt,none detected
 send1a-eng.txt,none detected
-send2-eng.txt,costs
+send2-eng.txt,none detected
 send20-eng.txt,"c(""send20c"", ""send20a"", ""send20b"")"
 send20a-eng.txt,"c(""form-a"", ""form a"")"
 send20b-eng.txt,form-b
@@ -1630,23 +1630,23 @@ send23-eng.txt,none detected
 send24-eng.txt,"c(""send24a"", ""send1a"")"
 send24a-eng.txt,none detected
 send24b-eng.txt,none detected
-send25-eng.txt,"c(""n19"", ""5050"", ""5142"")"
+send25-eng.txt,n19
 send26a-eng.txt,none detected
 send26b-eng.txt,none detected
-send27-eng.txt,deem
+send27-eng.txt,none detected
 send28-eng.txt,none detected
 send28a-eng.txt,none detected
 send28b-eng.txt,none detected
-send3-eng.txt,costs
+send3-eng.txt,none detected
 send30-eng.txt,none detected
-send4-eng.txt,costs
+send4-eng.txt,none detected
 send4a-eng.txt,none detected
 send4b-eng.txt,none detected
 send5-eng.txt,none detected
 send6-eng.txt,none detected
 send7-eng.txt,none detected
 send8-eng.txt,none detected
-send9-eng.txt,costs
+send9-eng.txt,none detected
 sscs1-(large-print)-eng.txt,"c(""sscs3"", ""sscs2"", ""sscs1a"", ""sscs1"", ""bd1"")"
 sscs1-(print-bras)-cym.txt,"c(""sscs3"", ""sscs2"", ""sscs1a"", ""sscs1"", ""bd1"")"
 sscs1-cym.txt,"c(""sscs3"", ""sscs2"", ""sscs1a"", ""bd1"")"
@@ -1669,16 +1669,16 @@ sscs6a-eng.txt,"c(""sscs6"", ""bd1"")"
 t001-cym.txt,none detected
 t001-eng.txt,ex343
 t002-cym.txt,none detected
-t002-eng.txt,costs
+t002-eng.txt,none detected
 t003-eng.txt,none detected
 t005-cym.txt,none detected
 t005-eng.txt,none detected
 t006-cym.txt,t002
 t006-eng.txt,none detected
-t03-eng.txt,costs
-t04-eng.txt,costs
-t10-eng.txt,costs
-t108-eng.txt,costs
+t03-eng.txt,none detected
+t04-eng.txt,none detected
+t10-eng.txt,none detected
+t108-eng.txt,none detected
 t108a-eng.txt,none detected
 t108b-eng.txt,t108
 t11-eng.txt,none detected
@@ -1687,7 +1687,7 @@ t110-guardianship-eng_doc.txt,none detected
 t111-eng_doc.txt,none detected
 t112-eng.txt,none detected
 t113-eng_doc.txt,none detected
-t114-eng.txt,costs
+t114-eng.txt,none detected
 t116-notes-eng.txt,none detected
 t117-eng.txt,none detected
 t118-cym.txt,none detected
@@ -1724,7 +1724,7 @@ t211-bil.txt,none detected
 t239-eng.txt,none detected
 t240-eng.txt,none detected
 t241-eng.txt,none detected
-t242-eng.txt,costs
+t242-eng.txt,none detected
 t243-eng.txt,none detected
 t244-eng.txt,none detected
 t245-eng.txt,none detected
@@ -1738,46 +1738,46 @@ t35-eng_doc.txt,none detected
 t359-eng.txt,none detected
 t36-eng.txt,t35
 t362-eng.txt,none detected
-t37-eng.txt,costs
-t370-eng.txt,costs
-t371-eng.txt,costs
-t372-eng.txt,costs
-t373-eng.txt,costs
-t374-eng.txt,costs
-t375-eng.txt,costs
-t379-eng.txt,costs
+t37-eng.txt,none detected
+t370-eng.txt,none detected
+t371-eng.txt,none detected
+t372-eng.txt,none detected
+t373-eng.txt,none detected
+t374-eng.txt,none detected
+t375-eng.txt,none detected
+t379-eng.txt,none detected
 t38-eng.txt,none detected
-t380-eng_doc.txt,costs
-t381-eng.txt,costs
+t380-eng_doc.txt,none detected
+t381-eng.txt,none detected
 t382-eng_doc.txt,none detected
 t382-eng.txt,none detected
 t383-eng_doc.txt,none detected
 t383-eng.txt,none detected
 t384-eng_doc.txt,"c(""form-a"", ""form a"")"
 t384-eng.txt,"c(""form-a"", ""form a"")"
-t385-eng.txt,costs
-t386-eng.txt,costs
-t399-eng.txt,costs
-t400-eng.txt,"c(""ftc3"", ""costs"")"
+t385-eng.txt,none detected
+t386-eng.txt,none detected
+t399-eng.txt,none detected
+t400-eng.txt,ftc3
 t410-eng_doc.txt,none detected
 t411-eng_doc.txt,none detected
-t412-eng.txt,costs
+t412-eng.txt,none detected
 t415-eng.txt,none detected
 t420-cym.txt,"c(""ex160a"", ""et1"", ""ch41"", ""ch4"", ""ch1"")"
-t420-eng.txt,"c(""et1"", ""costs"", ""ch41"", ""ch4"", ""ch1"")"
+t420-eng.txt,"c(""et1"", ""ch41"", ""ch4"", ""ch1"")"
 t421-cym.txt,ex343
 t421-eng.txt,"c(""t424"", ""ex343"")"
 t422-cym.txt,"c(""lwfansau"", ""ex343"", ""et1"")"
-t422-eng.txt,"c(""ex343"", ""et1"", ""costs"", ""allowances"")"
+t422-eng.txt,"c(""ex343"", ""et1"")"
 t423-cym.txt,"c(""ex343"", ""et1"")"
-t423-eng.txt,"c(""ex343"", ""et1"", ""costs"")"
-t424-cym.txt,"c(""lwfansau"", ""ex343"", ""allowances"")"
-t424-eng.txt,"c(""ex343"", ""costs"", ""allowances"")"
+t423-eng.txt,"c(""ex343"", ""et1"")"
+t424-cym.txt,"c(""lwfansau"", ""ex343"")"
+t424-eng.txt,ex343
 t425-cym.txt,"c(""lwfansau"", ""ex160a"")"
-t425-eng.txt,"c(""costs"", ""allowances"")"
+t425-eng.txt,none detected
 t426-cym.txt,"c(""ex727"", ""ex328"")"
-t426-eng.txt,"c(""t440"", ""ex727"", ""ex328"", ""costs"")"
-t434-eng.txt,"c(""costs"", ""allowances"")"
+t426-eng.txt,"c(""t440"", ""ex727"", ""ex328"")"
+t434-eng.txt,none detected
 t439-eng.txt,tsf4
 t440-eng.txt,"c(""et3"", ""et1"")"
 t443-eng.txt,none detected
@@ -1820,42 +1820,42 @@ t490-eng.txt,none detected
 t491-eng.txt,no.32
 t492-eng.txt,forma
 t493-eng.txt,"c(""pl2"", ""ch42"", ""cb2"")"
-t495-eng.txt,costs
+t495-eng.txt,none detected
 t496-eng.txt,none detected
-t497-eng.txt,costs
-t499-eng.txt,"c(""costs"", ""ex4"")"
-t53-eng.txt,"c(""ex160a"", ""ex160"", ""costs"")"
-t540-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t542"", ""t543"", ""costs"", ""cb1"")"
-t541-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t542"", ""t543"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t542-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t543-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t542"", ""t540"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t544-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t545-eng.txt,"c(""t609"", ""t546"", ""t544"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t546-eng.txt,"c(""t609"", ""t545"", ""t544"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""costs"", ""cb1"")"
-t547-eng.txt,costs
-t601-eng.txt,"c(""t602"", ""ex160"", ""costs"")"
-t602-eng.txt,"c(""t601"", ""costs"")"
+t497-eng.txt,none detected
+t499-eng.txt,ex4
+t53-eng.txt,"c(""ex160a"", ""ex160"")"
+t540-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t542"", ""t543"", ""cb1"")"
+t541-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t542"", ""t543"", ""ex160a"", ""ex160"", ""cb1"")"
+t542-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""cb1"")"
+t543-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t544"", ""t541"", ""t542"", ""t540"", ""ex160a"", ""ex160"", ""cb1"")"
+t544-eng.txt,"c(""t609"", ""t546"", ""t545"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""cb1"")"
+t545-eng.txt,"c(""t609"", ""t546"", ""t544"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""cb1"")"
+t546-eng.txt,"c(""t609"", ""t545"", ""t544"", ""t541"", ""t542"", ""t540"", ""t543"", ""ex160a"", ""ex160"", ""cb1"")"
+t547-eng.txt,none detected
+t601-eng.txt,"c(""t602"", ""ex160"")"
+t602-eng.txt,t601
 t603-eng.txt,none detected
-t604-eng.txt,"c(""ex160"", ""costs"")"
-t605-eng.txt,"c(""ex160"", ""costs"")"
-t606-eng.txt,"c(""ex160"", ""costs"")"
+t604-eng.txt,ex160
+t605-eng.txt,ex160
+t606-eng.txt,ex160
 t607-eng.txt,"c(""form-a"", ""form a"")"
-t608-eng.txt,"c(""t381"", ""ex160"", ""costs"")"
+t608-eng.txt,"c(""t381"", ""ex160"")"
 t609-eng.txt,none detected
 t610-eng.txt,none detected
 t611-eng.txt,none detected
 t612-eng.txt,none detected
 t613-eng.txt,none detected
-t614-eng.txt,costs
-t615-eng.txt,costs
-t616-eng.txt,costs
-t617-eng.txt,"c(""costs"", ""forma"")"
-t618-eng.txt,costs
+t614-eng.txt,none detected
+t615-eng.txt,none detected
+t616-eng.txt,none detected
+t617-eng.txt,forma
+t618-eng.txt,none detected
 t619-eng_doc.txt,none detected
 t619a-eng.txt,none detected
 t621-eng.txt,none detected
 t622-eng.txt,none detected
-t94-eng.txt,costs
+t94-eng.txt,none detected
 t95-eng.txt,none detected
 t96-eng_doc.txt,none detected
 t97-eng.txt,"c(""ex160a"", ""ex160"")"
@@ -1865,7 +1865,7 @@ tahb511-eng_doc.txt,tahb521
 tahb521-eng_doc.txt,tahb511
 tald711-eng_doc.txt,tald721
 tald721-eng_doc.txt,none detected
-talg900-eng.txt,costs
+talg900-eng.txt,none detected
 talg911-eng_doc.txt,talg921
 talg921-eng_doc.txt,talg911
 talg964-eng.txt,none detected
@@ -1876,54 +1876,54 @@ tasd111-eng_doc.txt,tasd121
 tasd121-eng_doc.txt,tasd111
 tasr211-eng_doc.txt,tasr221
 tasr221-eng_doc.txt,tasr211
-tcc-cm1-eng.txt,"c(""pf52"", ""costs"", ""case-management-information-sheet"")"
-tcc-ptr1-eng.txt,costs
+tcc-cm1-eng.txt,"c(""pf52"", ""case-management-information-sheet"")"
+tcc-ptr1-eng.txt,none detected
 te3-eng.txt,te9
 te7-(dart-charge)-eng.txt,te7
 te7-eng_doc.txt,"c(""te9"", ""te3"")"
 te9-(dart-charge)-eng.txt,te9
 te9-eng_doc.txt,te3
 tgrcref-eng.txt,none detected
-tsf4-eng.txt,"c(""costs"", ""allowances"")"
+tsf4-eng.txt,none detected
 tystysgrif-colli-enillion-neu-fudd-dal-cym.txt,lwfansau
 undertaking-to-issue-form-(high-court-family-division)-eng_doc.txt,ex160a
 ut-table-of-cases-eng.txt,"c(""ut13"", ""ut14"", ""ut10"", ""ut9"", ""ut11"", ""ut12"", ""ut8"", ""ut5"", ""ut6"", ""ut4"", ""ut3"", ""ut1"", ""jrc1"")"
 ut1-cym_doc.txt,none detected
 ut1-cym.txt,none detected
 ut1-eng_doc.txt,none detected
-ut1-leaflet-eng.txt,"c(""ut1"", ""costs"", ""allowances"")"
+ut1-leaflet-eng.txt,ut1
 ut1-nodiadau-cym_doc.txt,ut1
 ut1-nodiadau-cym.txt,ut1
 ut1-taflen-cym.txt,lwfansau
 ut10-eng_doc.txt,none detected
 ut10-leaflet-eng.txt,none detected
 ut11-eng.txt,ut13
-ut11-leaflet-eng.txt,"c(""ut11"", ""ut11-notes"", ""costs"")"
+ut11-leaflet-eng.txt,"c(""ut11"", ""ut11-notes"")"
 ut11-notes-eng.txt,ut11
 ut12-eng_doc.txt,none detected
-ut12-leaflet-eng.txt,"c(""costs"", ""cb2"")"
+ut12-leaflet-eng.txt,cb2
 ut12-notes-eng.txt,ut12
 ut12ni-eng_doc.txt,none detected
 ut13-eng.txt,ut11
-ut13-leaflet-eng.txt,"c(""ut13"", ""costs"")"
+ut13-leaflet-eng.txt,ut13
 ut14-eng.txt,none detected
 ut2-eng_doc.txt,none detected
 ut2-eng.txt,none detected
 ut3-eng_doc.txt,none detected
-ut3-leaflet-eng_doc.txt,costs
-ut3-leaflet-eng.txt,"c(""ut3"", ""costs"")"
+ut3-leaflet-eng_doc.txt,none detected
+ut3-leaflet-eng.txt,ut3
 ut3-notes-eng.txt,ut3
 ut4-eng.txt,none detected
-ut4-leaflet-eng.txt,"c(""ut4"", ""costs"")"
+ut4-leaflet-eng.txt,ut4
 ut4-notes-eng.txt,ut4
 ut5-eng_doc.txt,none detected
 ut5-eng.txt,none detected
-ut5-leaflet-eng.txt,"c(""ut5"", ""costs"")"
+ut5-leaflet-eng.txt,ut5
 ut5-notes-eng.txt,ut5
 ut6-eng_doc.txt,none detected
 ut6-eng.txt,none detected
-ut6-leaflet-eng_doc.txt,"c(""ut6"", ""costs"", ""allowances"")"
-ut6-leaflet-eng.txt,"c(""ut6"", ""costs"", ""allowances"")"
+ut6-leaflet-eng_doc.txt,ut6
+ut6-leaflet-eng.txt,ut6
 ut6-notes-eng_doc.txt,ut6
 ut6-notes-eng.txt,ut6
 ut7-eng_doc.txt,ut6
@@ -1932,7 +1932,7 @@ ut8-cym_doc.txt,none detected
 ut8-cym.txt,none detected
 ut8-eng_doc.txt,none detected
 ut8-eng.txt,none detected
-ut8-leaflet-eng.txt,"c(""ut8"", ""costs"")"
+ut8-leaflet-eng.txt,ut8
 ut8-nodiadau-cym.txt,ut8
 ut8-notes-eng.txt,ut8
 ut8-taflen-cym.txt,ut8
@@ -1940,7 +1940,7 @@ ut9-cym_doc.txt,none detected
 ut9-cym.txt,none detected
 ut9-eng_doc.txt,none detected
 ut9-eng.txt,form-h
-ut9-leaflet-eng.txt,"c(""ut9"", ""costs"")"
+ut9-leaflet-eng.txt,ut9
 ut9-notes-eng.txt,ut9
 ut9-taflen-cym.txt,ut9
 utaac-faq-eng.txt,none detected
