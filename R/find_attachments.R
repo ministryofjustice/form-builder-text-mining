@@ -3,8 +3,7 @@ library(tibble)
 library(tidyverse)
 library(readr)
 
-path = "./live_forms_extracted/"
-setwd('~/development/forms/live_forms_extracted/')
+setwd('~/development/forms/opg/')
 
 # load data
 file.names <- dir('.', pattern =".txt")
@@ -14,7 +13,7 @@ enclose_pattern <- 'enclose'
 supporting_pattern <- 'supporting document'
 
 supporting <- tibble()
-enclosed <- tibble()
+enclosed   <- tibble()
 attachment <- tibble()
 
 for(file.name in file.names) {
@@ -27,17 +26,17 @@ for(file.name in file.names) {
   attachment <- rbind(attachment, filter(sen_df, grepl(attachment_pattern, sen_df$text)))
 }
 
-enclosed$short_text   <- sapply(enclosed$text,   function(x) str_extract(x, '(.{40})enclose(.{40})')[[1]])
-attachment$short_text <- sapply(attachment$text, function(x) str_extract(x, '(.{40})attach(.{40})')[[1]])
-supporting$short_text <- sapply(supporting$text, function(x) str_extract(x, '(.{40})supporting(.{40})')[[1]])
+enclosed$short_text   <- sapply(enclosed$text,   function(x) str_extract(x, '(.{1,40})enclose(.{1,40})')[[1]])
+attachment$short_text <- sapply(attachment$text, function(x) str_extract(x, '(.{1,40})attach(.{1,40})')[[1]])
+supporting$short_text <- sapply(supporting$text, function(x) str_extract(x, '(.{1,40})supporting(.{1,40})')[[1]])
 
 enclosed$text   <- NULL
 supporting$text <- NULL
 attachment$text <- NULL
 
-write_csv(enclosed, '../eclosed.csv')
-write_csv(supporting, '../supporting.csv')
-write_csv(attachment, '../attachment.csv')
+write_csv(enclosed, './opg_enclosed.csv')
+write_csv(supporting, './opg_supporting.csv')
+write_csv(attachment, './opg_attachment.csv')
 
 # OR:
 # 1. Analyse sentences in Google sheets.
