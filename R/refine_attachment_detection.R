@@ -2,8 +2,17 @@ library(tidyverse)
 library(readr)
 
 atts <- read_csv('~/Downloads/validated_attachments40v2.csv')
+atts$reference <- sapply(atts$file, FUN = function(x){
+  x <- gsub('.txt', '', x)
+  x <- gsub('_doc', '', x)
+  x <- gsub('-eng', '', x)
+  x <- gsub('-bil', '', x)
+})
 
-atts$automated_validation <- sapply(atts$short_text, FUN = function(x) {
+uni_text <- atts[!duplicated(atts$short_text),]
+uni_atts <- uni_text
+
+uni_atts$automated_validation <- sapply(uni_atts$short_text, FUN = function(x) {
   positive <- c(
     must    <- grepl('you must attach', x),
     must_2  <- grepl('must be attached', x),
@@ -16,7 +25,9 @@ atts$automated_validation <- sapply(atts$short_text, FUN = function(x) {
     any_relevant <- grepl('attached copies of any relevant documents', x),
     copies <- grepl('attached copies of', x),
     copies_2 <- grepl('attach copies', x),
-    evidence <- grepl('attach any evidence', x)
+    evidence <- grepl('attach any evidence', x),
+    if_you <- grepl('if you are attaching', x),
+    to_whom <- grepl('to whom the attached', x)
   )
   
   negative <- c(
@@ -37,6 +48,6 @@ atts$automated_validation <- sapply(atts$short_text, FUN = function(x) {
   }
 })
 
-sum(is.na(atts$automated_validation))
+sum(is.na(uni_atts$automated_validation))
 
-write_csv(atts, './validated_attachments.csv')
+write_csv(uni_atts, './validated_attachments.csv')

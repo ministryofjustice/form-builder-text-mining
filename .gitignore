@@ -1,5 +1,9 @@
-/live_forms_extracted/
-/live_forms/
+/hmcts/live_forms_extracted/
+/hmcts/live_forms/
+/opg/*.txt
+/laa/*.txt
+/hq/*.txt
+/hmpps/*.txt
 .Rhistory
 .ipynb_checkpoints
 .Rproj.user
