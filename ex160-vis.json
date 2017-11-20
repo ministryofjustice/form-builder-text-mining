@@ -1,4 +1,4 @@
-{'nodes': [
+{"nodes": [
   {
     "id": "a58"
   },
@@ -650,7 +650,7 @@
   {
     "id": "ex160"
   }
-], 'links': [
+], "links": [
   {
     "source": "a58",
     "target": "ex160"
