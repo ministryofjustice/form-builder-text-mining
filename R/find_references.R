@@ -24,12 +24,14 @@ form.references <- str_replace_all(form.references, '-', ' ')
 # create an empty list for references
 all.references <- list()
 
+# create tibble to use for data vis
+links <- tibble()
+
 # set wd
 setwd('./hmcts/live_forms_extracted/')
 
 # iterate through files to identify which form codes are present in the text
 counter = 0
-
 for(filename in text.files) {
   
   #increment counter
@@ -40,7 +42,7 @@ for(filename in text.files) {
   
   # set self.reference to detect references to the form under analysis, in that same form
   pattern <- '\\-(?=[^\\-]+$)'
-  self.reference <- strsplit(filename, pattern, perl = TRUE)
+  self.reference <- sapply(strsplit(filename, pattern, perl = TRUE), `[`, 1)
   self.reference <- str_replace_all(self.reference, '-', ' ')
   
   # load text
@@ -68,12 +70,19 @@ for(filename in text.files) {
   
   # handle cases where no refs are detected
   if(length(file.references) == 0) {
-    file.dependencies <- c('none detected')
+    file.references <- c('none detected')
   }
+  
+  # add to links tibble
+  nodename <- gsub('-doc.txt|.txt', '', filename)
+  new_links <- tibble(source = nodename, target = file.references)
+  links <- rbind(links, new_links)
+  
   # build list of lists
   all.references <- append(all.references, list(file.references))
 }
 
 # make data frame and write to file
-references <- data.frame(form = text.files, dependencies = I(all.references))
+write_csv(links, '../links.csv')
+references <- data.frame(form = text.files, references = I(all.references))
 write_excel_csv(references, '../references.csv')
