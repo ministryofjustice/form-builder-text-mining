@@ -68,12 +68,12 @@ for(filename in text.files) {
   
   # handle cases where no refs are detected
   if(length(file.references) == 0) {
-    file.dependencies <- c('none detected')
+    file.references <- c('none detected')
   }
   # build list of lists
   all.references <- append(all.references, list(file.references))
 }
 
 # make data frame and write to file
-references <- data.frame(form = text.files, dependencies = I(all.references))
+references <- data.frame(form = text.files, references = I(all.references))
 write_excel_csv(references, '../references.csv')
