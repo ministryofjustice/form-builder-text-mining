@@ -4,7 +4,7 @@ library(jsonlite)
 
 # set initial focus to one or more forms and then run everything
 # output file is called links-and-nodes.json (re-runs will overwrite )
-focus = c('pa1')
+focus = c('ex160')
 
 links = read_csv('./links.csv')
 links$source <- gsub('\\-eng|\\-cym|\\-bil', '', links$source)
@@ -29,7 +29,7 @@ nodes_to_map <- tibble(id = unique(c(links_to_map$source, links_to_map$target)))
 nodes_to_map.json <- toJSON(nodes_to_map, pretty = T)
 links_to_map.json <- toJSON(links_to_map, pretty = T)
 
-jsonfile <- sprintf("{'nodes': %s, 'links': %s}", nodes_to_map.json, links_to_map.json)
-write(jsonfile, './links-and-nodes.json')
+jsonfile <- sprintf('{"nodes": %s, "links": %s}', nodes_to_map.json, links_to_map.json)
+write(jsonfile, './ex160-vis.json')
 
 
