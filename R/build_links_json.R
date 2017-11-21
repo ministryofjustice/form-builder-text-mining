@@ -9,7 +9,7 @@ option_list = list(
   make_option(c("-f", "--focus"),
               type    = "character",
               default = NULL, 
-              help    = "list of forms to focus on",
+              help    = "colon separated list of forms to focus on",
               metavar = "character"
   ),
   make_option(c("-s", "--save"),
@@ -44,7 +44,7 @@ get_new_focus <- function(new_links, prev_foci) {
 get_mapping_json <- function(focus_opt, links_path) {
   
   # setting up
-  focus_list <- strsplit(opt$focus, '-')[[1]]
+  focus_list <- strsplit(opt$focus, ':')[[1]]
   focus = tolower(focus_list)
   output_file_name <- paste0(opt$focus, '-vis.json')
   links = read_csv(links_path)
