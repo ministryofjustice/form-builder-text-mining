@@ -16,6 +16,7 @@ focus <- tolower(focus)
 links = read_csv('./links.csv')
 links$source <- gsub('\\-eng|\\-cym|\\-bil', '', links$source)
 links$source <- gsub('_doc', '', links$source)
+links <- links[links$target != 'none detected',]
 links_to_map = tibble()
 
 get_links_to_map <- function(linksdf, forms_of_interest) {
@@ -26,7 +27,7 @@ get_links_to_map <- function(linksdf, forms_of_interest) {
 
 get_new_focus <- function(new_links, prev_foci) {
   focus_from_new_links <- c(new_links$target, new_links$source)
-  already_done <- focus_from_new_links %in% prev_foci
+  already_done <- focus_from_new_links %in% c(prev_foci)
   focus_from_new_links[!already_done]
 }
 
