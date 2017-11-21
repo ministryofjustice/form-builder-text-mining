@@ -65,6 +65,12 @@ get_mapping_json <- function(focus_opt, links_path) {
   
   # abstracting nodes
   nodes_to_map <- tibble(id = unique(c(links_to_map$source, links_to_map$target)))
+  nodes_to_map$group <- sapply(
+    nodes_to_map$id,
+    FUN = function(node) { 
+      nrow(links_to_map[links_to_map$target == node,] ) + 10
+    }
+  )
   
   # generating nodes and links json
   nodes_to_map.json <- toJSON(nodes_to_map, pretty = T)
