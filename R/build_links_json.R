@@ -4,7 +4,7 @@ library(jsonlite)
 
 # set initial focus to one or more forms and then run everything
 # output file is called links-and-nodes.json (re-runs will overwrite )
-focus = c('ex160')
+focus = c('pa7')
 
 links = read_csv('./links.csv')
 links$source <- gsub('\\-eng|\\-cym|\\-bil', '', links$source)
