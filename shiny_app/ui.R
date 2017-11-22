@@ -11,7 +11,7 @@ ui <- fluidPage(
     mainPanel(
       h1('References to and from your favourite form'),
       tags$div(HTML(
-        '<svg width=8000 height=8000 style="border:solid 1px"></svg>'
+        '<svg width=800 height=800 style="border:solid 1px"></svg>'
       )),
       tags$div(id='form-network'),
       tags$script(src="https://d3js.org/d3.v4.min.js"),

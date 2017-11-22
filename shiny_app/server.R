@@ -4,7 +4,7 @@ library(DT)
 
 shinyServer(
   function(input, output, session) {
-    data <- toJSON(read_json('../pa1-vis.json'))
+    data <- toJSON(read_json('../ex160-vis.json'))
     session$sendCustomMessage(type = 'testmessage', message = data)
   }
 )

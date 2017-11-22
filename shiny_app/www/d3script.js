@@ -2,8 +2,6 @@ Shiny.addCustomMessageHandler("testmessage",
   function(message){
     var linksAndNodes = message;
 
-    var dataURL = "https://ministryofjustice.github.io/form-builder-dependency-extraction/pa7-vis.json";
-
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -41,27 +39,23 @@ var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) {
         return d.id;
     }).distance(80))
-    .force("charge", d3.forceManyBody().strength(-500))
+    .force("charge", d3.forceManyBody().strength(-1))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collide", d3.forceCollide().radius(function(d) {
         return nodeRadius + 0.5; }).iterations(4))
 
-
-d3.json(dataURL, function(error, graph) {
-    if (error) throw error;
-
-    simulation.nodes(graph.nodes);
-    simulation.force("link").links(graph.links);
+    simulation.nodes(linksAndNodes.nodes);
+    simulation.force("link").links(linksAndNodes.links);
 
     var link = svg.append("g")
         .attr("class", "link")
         .attr("marker-end", "url(#end)")
         .selectAll("line")
-        .data(graph.links)
+        .data(linksAndNodes.links)
         .enter().append("line");
 
     var node = svg.selectAll(".node")
-      .data(graph.nodes)
+      .data(linksAndNodes.nodes)
       .enter().append("circle")
       .attr("class", "node")
       .attr("r", 5)
@@ -84,22 +78,22 @@ d3.json(dataURL, function(error, graph) {
     var labels = svg.append("g")
         .attr("class", "label")
         .selectAll("text")
-        .data(graph.nodes)
+        .data(linksAndNodes.nodes)
         .enter().append("text")
         .attr("dx", 6)
         .attr("dy", ".35em")
         .style("font-size", 10)
         .text(function(d) {
-            return d.id
+            return d.id;
         });
   
 
     simulation
-        .nodes(graph.nodes)
+        .nodes(linksAndNodes.nodes)
         .on("tick", ticked);
 
     simulation.force("link")
-        .links(graph.links);
+        .links(linksAndNodes.links);
   
   function ticked() {
 
@@ -130,9 +124,7 @@ d3.json(dataURL, function(error, graph) {
         .attr("y", function(d) {
             return d.y;
         }); 
-}
- 
-});
+  }
 
 function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
