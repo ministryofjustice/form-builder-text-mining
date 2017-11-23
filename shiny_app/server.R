@@ -1,10 +1,11 @@
 library(jsonlite)
 library(shiny)
 library(DT)
+source(file = 'build_links_json.R')
 
 shinyServer(
   function(input, output, session) {
-    data <- toJSON(read_json('../ex160-vis.json'))
-    session$sendCustomMessage(type = 'testmessage', message = data)
+    data = get_mapping_json(c('ex160'), './links.csv')
+    session$sendCustomMessage(type = 'jsondata', message = data)
   }
 )

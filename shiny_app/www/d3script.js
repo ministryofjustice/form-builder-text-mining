@@ -1,6 +1,6 @@
-Shiny.addCustomMessageHandler("testmessage",
+Shiny.addCustomMessageHandler("jsondata",
   function(message){
-    var linksAndNodes = message;
+    var json_data = message;
 
 dataURL = 'https://ministryofjustice.github.io/form-builder-dependency-extraction/ex160-vis.json';
 
@@ -46,9 +46,9 @@ var simulation = d3.forceSimulation()
     .force("collide", d3.forceCollide().radius(function(d) {
         return nodeRadius + 0.5; }).iterations(4));
 
-d3.json(dataURL, function(error, graph) {
-    if (error) throw error;
-
+// d3.json(data, function(error, graph) {
+//     if (error) throw error;
+    graph = json_data;
     simulation.nodes(graph.nodes);
     simulation.force("link").links(graph.links);
 
@@ -68,7 +68,7 @@ d3.json(dataURL, function(error, graph) {
       // .call(force.drag)
       .attr("r", function(d) {
         if (d.hasOwnProperty('group')) {
-            return d.group * 2 + 10;
+            return d.group;
         } else {
             return 9;
         }
@@ -134,7 +134,7 @@ d3.json(dataURL, function(error, graph) {
             return d.y;
         });
   }
-});
+// });
 
 function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
