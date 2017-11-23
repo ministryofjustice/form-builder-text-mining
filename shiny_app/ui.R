@@ -16,7 +16,10 @@ ui <- fluidPage(
       tags$div(id='form-network'),
       tags$script(src="https://d3js.org/d3.v4.min.js"),
       singleton(
-        tags$head(tags$script(src = "d3script.js"))
+        tags$head(
+          tags$script(src = "d3script.js"),
+          tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+        )
       )
     )
   )
