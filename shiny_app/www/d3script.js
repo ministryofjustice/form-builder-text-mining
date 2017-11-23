@@ -38,7 +38,6 @@ d3.select("div#form-network")
 
 
 var color = d3.scaleOrdinal(d3.schemeCategory20c);
-var nodeRadius = 20;
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) {
@@ -47,7 +46,7 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody().strength(-1))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collide", d3.forceCollide().radius(function(d) {
-        return nodeRadius + 0.5; }).iterations(4));
+        return d.group + 10; }).iterations(4));
 
 // d3.json(data, function(error, graph) {
 //     if (error) throw error;
@@ -155,6 +154,5 @@ function dragended(d) {
     d.fx = null;
     d.fy = null;
 }
-
 }
 );

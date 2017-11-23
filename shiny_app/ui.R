@@ -2,21 +2,22 @@ library(shiny)
 
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
-  titlePanel("Visualise those forms!"),
 
   sidebarLayout(
-    sidebarPanel(
-      h1('Choose a form'),
-      selectizeInput(
-        inputId = "form_choice",
-        label = "Choose your favourite form:",
-        choices = c('ex160', 'pa7')
+    fluidRow(
+      column(4,
+        offset = 1,
+        titlePanel("Visualise those forms!")
+      ),
+      column(7,
+        uiOutput("form_choice")
       )
     ),
-    mainPanel(
-      h1('References to and from your favourite form'),
+    fluidRow(
+      column(12,
+      offset = 1,
       tags$div(HTML(
-        '<svg width=800 height=800 style="border:solid 1px"></svg>'
+        '<svg width=1200 height=650 style="border:solid 1px"></svg>'
       )),
       tags$div(id='form-network'),
       tags$script(src="https://d3js.org/d3.v4.min.js"),
@@ -26,7 +27,7 @@ ui <- fluidPage(
           tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
         )
       )
-    )
+    ))
   )
 
 )
