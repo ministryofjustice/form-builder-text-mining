@@ -6,7 +6,12 @@ ui <- fluidPage(
 
   sidebarLayout(
     sidebarPanel(
-      h1('Choose a form')
+      h1('Choose a form'),
+      selectizeInput(
+        inputId = "form_choice",
+        label = "Choose your favourite form:",
+        choices = c('ex160', 'pa7')
+      )
     ),
     mainPanel(
       h1('References to and from your favourite form'),
