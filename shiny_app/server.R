@@ -10,6 +10,7 @@ shinyServer(
     data = reactive({
       get_mapping_json(input$form_choice, './links.csv', to_snake_case(input$ref_direction))
     })
+
     links = read_csv('./links.csv')
     forms = unique(links$target, links$source)
 

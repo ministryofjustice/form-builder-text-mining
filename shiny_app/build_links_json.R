@@ -29,6 +29,7 @@ get_mapping_json <- function(focus_opt, links_path, ref_direction) {
   # setting up
   focus_list <- strsplit(focus_opt, ':')[[1]]
   focus = tolower(focus_list)
+  initial_focus = focus
   # output_file_name <- paste0(focus_opt, '-vis.json')
   links = read_csv(links_path)
   links <- links[links$target != 'none detected',]
@@ -47,7 +48,7 @@ get_mapping_json <- function(focus_opt, links_path, ref_direction) {
   }
   
   # abstracting nodes
-  nodes_to_map <- tibble(id = unique(c(links_to_map$source, links_to_map$target)))
+  nodes_to_map <- tibble(id = unique(c(links_to_map$source, links_to_map$target, initial_focus)))
   nodes_to_map$group <- sapply(
     nodes_to_map$id,
     FUN = function(node) { 
