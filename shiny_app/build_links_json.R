@@ -39,9 +39,13 @@ get_mapping_json <- function(focus_opt, links_path, ref_direction, iterations) {
   links_to_map = tibble()
   prev_foci = c()
   
-  remaining_iterations = iterations
+  remaining_iterations = if(iterations == 'To completion') {
+    Inf
+  } else {
+    as.integer(iterations)
+  }
   # doing the work
-  while(length(focus) > 0 && remaining_iterations > 0) {
+  while(length(focus) > 0 & remaining_iterations > 0) {
     new_links_to_map <- get_links_to_map(links, focus, ref_direction)
     links_to_map     <- unique(rbind(links_to_map, new_links_to_map))
     prev_foci        <- c(focus, prev_foci)
