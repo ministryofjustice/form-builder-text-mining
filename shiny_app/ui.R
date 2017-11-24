@@ -7,9 +7,9 @@ ui <- fluidPage(
     fluidRow(
       column(4,
         offset = 1,
-        titlePanel("Visualise those forms!")
+        uiOutput("ref_direction")
       ),
-      column(7,
+      column(4,
         uiOutput("form_choice")
       )
     ),

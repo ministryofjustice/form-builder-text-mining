@@ -3,10 +3,19 @@ library(readr)
 library(jsonlite)
 library(optparse)
 
-get_links_to_map <- function(linksdf, forms_of_interest) {
-  target_filter <- linksdf$target %in% forms_of_interest
-  source_filter <- linksdf$source %in% forms_of_interest
-  rbind(linksdf[target_filter,], linksdf[source_filter,])
+get_links_to_map <- function(linksdf, forms_of_interest, ref_direction) {
+  if(ref_direction == 'to_and_from') {
+    target_filter <- linksdf$target %in% forms_of_interest
+    source_filter <- linksdf$source %in% forms_of_interest
+    filter <- target_filter | source_filter
+  } else if(ref_direction == 'to') {
+    filter <- linksdf$target %in% forms_of_interest
+  } else if(ref_direction == 'from') {
+    filter <- linksdf$source %in% forms_of_interest
+  } else {
+    stop('Invalid `ref_direction` parameter')
+  }
+    linksdf[filter,]
 }
 
 get_new_focus <- function(new_links, prev_foci) {
@@ -15,12 +24,12 @@ get_new_focus <- function(new_links, prev_foci) {
   focus_from_new_links[!already_done]
 }
 
-get_mapping_json <- function(focus_opt, links_path) {
+get_mapping_json <- function(focus_opt, links_path, ref_direction) {
   
   # setting up
   focus_list <- strsplit(focus_opt, ':')[[1]]
   focus = tolower(focus_list)
-  output_file_name <- paste0(focus_opt, '-vis.json')
+  # output_file_name <- paste0(focus_opt, '-vis.json')
   links = read_csv(links_path)
   links <- links[links$target != 'none detected',]
   links$source <- gsub('\\-eng|\\-cym|\\-bil', '', links$source)
@@ -31,7 +40,7 @@ get_mapping_json <- function(focus_opt, links_path) {
   
   # doing the work
   while(length(focus) > 0) {
-    new_links_to_map <- get_links_to_map(links, focus)
+    new_links_to_map <- get_links_to_map(links, focus, ref_direction)
     links_to_map     <- unique(rbind(links_to_map, new_links_to_map))
     prev_foci        <- c(focus, prev_foci)
     focus            <- get_new_focus(new_links_to_map, prev_foci)
