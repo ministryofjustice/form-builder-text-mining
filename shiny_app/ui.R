@@ -5,12 +5,15 @@ ui <- fluidPage(
 
   sidebarLayout(
     fluidRow(
-      column(4,
+      column(2,
         offset = 1,
         uiOutput("ref_direction")
       ),
-      column(4,
+      column(3,
         uiOutput("form_choice")
+      ),
+      column(2,
+        uiOutput("iterations")
       )
     ),
     fluidRow(
