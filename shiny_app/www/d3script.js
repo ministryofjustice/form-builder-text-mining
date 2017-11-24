@@ -1,6 +1,7 @@
 Shiny.addCustomMessageHandler("jsondata",
   function(message){
-    var json_data = message;
+    var json_data = message.links_and_nodes;
+    var form_choice = message.form_choice;
 
 dataURL = 'https://ministryofjustice.github.io/form-builder-dependency-extraction/ex160-vis.json';
 
@@ -24,6 +25,7 @@ svg.append("svg:defs").selectAll("marker")
     .attr("orient", "auto")
   .append("svg:path")
     .attr("d", "M0,-5L10,0L0,5");
+
 
 //TODO make svg responsive
 d3.select("div#form-network")
@@ -65,9 +67,14 @@ var simulation = d3.forceSimulation()
       .data(graph.nodes)
       .enter().append("circle")
       .attr("class", "node")
-      .attr("id", function(d) { return d.id; } )
       .attr("r", 5)
-      .style("fill", function(d) { return color(d.group); })
+      .style("fill", function(d) { if(form_choice.indexOf(d.id) >= 0)
+        {
+          return d3.rgb(253, 141, 60);
+        } else {
+          return d3.rgb(116, 196, 118);
+        }
+      })
       // .call(force.drag)
       .attr("r", function(d) {
         if (d.hasOwnProperty('group')) {

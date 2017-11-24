@@ -57,5 +57,5 @@ get_mapping_json <- function(focus_opt, links_path, ref_direction) {
   )
   
   # generating nodes and links json
-  jsonlite::toJSON(list(nodes = nodes_to_map, links = links_to_map))
+  jsonlite::toJSON(list(form_choice = initial_focus, links_and_nodes = list(nodes = nodes_to_map, links = links_to_map)))
 }
