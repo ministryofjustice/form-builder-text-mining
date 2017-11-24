@@ -67,6 +67,7 @@ var simulation = d3.forceSimulation()
       .data(graph.nodes)
       .enter().append("circle")
       .attr("class", "node")
+      .attr("id", function(d) { return d.id; })
       .attr("r", 5)
       .style("fill", function(d) { if(form_choice.indexOf(d.id) >= 0)
         {
