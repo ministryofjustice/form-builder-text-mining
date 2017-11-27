@@ -1,5 +1,6 @@
 library(jsonlite)
 library(shiny)
+library(stringr)
 library(DT)
 library(snakecase)
 library(readr)
@@ -15,6 +16,9 @@ shinyServer(
     register = read_csv('./register.csv')
     colnames(register)[5] <- 'Type'
     register$Payment <- sapply(register$Payment, FUN = function(x) if(x == 0){ 'Yes' } else {'No'})
+    register$'File Name' <- sapply(register$'File Name', FUN = function(f) {
+      str_interp("<a href=\"https://formfinder.hmctsformfinder.justice.gov.uk/${f}\">${f}</a>")
+    })
     links = read_csv('./links.csv')
     forms = unique(links$target, links$source)
 
@@ -36,7 +40,7 @@ shinyServer(
       register[tolower(register$'Form Reference') == input$form_choice,][table_cols]
     })
 
-    output$table <- renderTable(table())
+    output$table <- renderTable({table()}, sanitize.text.function = function(x) x)
 
     output$ref_direction <- renderUI({
       selectInput(inputId = "ref_direction",
