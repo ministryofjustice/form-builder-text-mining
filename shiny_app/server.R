@@ -2,15 +2,19 @@ library(jsonlite)
 library(shiny)
 library(DT)
 library(snakecase)
+library(readr)
 source(file = 'build_links_json.R')
 
 shinyServer(
   function(input, output, session) {
 
-    data = reactive({
+    data <- reactive({
       get_mapping_json(c(input$form_choice), './links.csv', to_snake_case(input$ref_direction), input$iterations)
     })
 
+    register = read_csv('./register.csv')
+    colnames(register)[5] <- 'Type'
+    register$Payment <- sapply(register$Payment, FUN = function(x) if(x == 0){ 'Yes' } else {'No'})
     links = read_csv('./links.csv')
     forms = unique(links$target, links$source)
 
@@ -20,6 +24,19 @@ shinyServer(
                   choices = sort(forms),
       )
     })
+
+    table_cols <- c(
+      'Attachment',
+      'Payment',
+      'Type',
+      'Language'
+    )
+
+    table <- reactive({
+      register[tolower(register$'Form Reference') == input$form_choice,][table_cols]
+    })
+
+    output$table <- renderTable(table())
 
     output$ref_direction <- renderUI({
       selectInput(inputId = "ref_direction",

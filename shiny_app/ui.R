@@ -14,6 +14,9 @@ ui <- fluidPage(
       ),
       column(2,
         uiOutput("iterations")
+      ),
+      column(4,
+        tableOutput("table")
       )
     ),
     fluidRow(

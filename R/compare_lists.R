@@ -2,7 +2,7 @@ library(tidyverse)
 
 setwd('~/development/forms')
 
-live <- read.csv('./live_forms_file_list.csv', stringsAsFactors = F)
+live <- read.csv('./hmcts/live_forms_file_list.csv', stringsAsFactors = F)
 live.names <- live$name
 
 master <- read.csv('./form_analysis_master.csv', stringsAsFactors = F)

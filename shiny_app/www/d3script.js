@@ -129,16 +129,13 @@ var simulation = d3.forceSimulation()
         .attr("y2", function(d) {
             return d.target.y;
         });
-
-    node
-        .attr("cx", function(d) {
+    node.attr("cx", function(d) {
             return d.x;
         })
         .attr("cy", function(d) {
             return d.y;
         });
-    labels
-        .attr("x", function(d) {
+    labels.attr("x", function(d) {
             return d.x;
         })
         .attr("y", function(d) {
