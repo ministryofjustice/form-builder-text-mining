@@ -29,7 +29,7 @@ shinyServer(
       'Attachment',
       'Payment',
       'Type',
-      'Language'
+      'File Name'
     )
 
     table <- reactive({
