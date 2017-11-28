@@ -16,10 +16,11 @@ sources <- c(
 text.files <- dir(sources, pattern =".txt")
 
 # get the list of potential form references (it's longer than, hence separate to, the list of files)
-form.references <- read_csv('./hmcts/all_form_names.csv')$x
+form.references <- read_csv('../../shiny_app/register.csv')$`Form Reference`
 form.references <- str_replace_all(form.references, '\\(', '\\\\(')
 form.references <- str_replace_all(form.references, '\\)', '\\\\)')
 form.references <- str_replace_all(form.references, '-', ' ')
+form.references <- tolower(form.references)
 
 # create an empty list for references
 all.references <- list()
@@ -83,6 +84,29 @@ for(filename in text.files) {
 }
 
 # make data frame and write to file
-write_csv(links, '../links.csv')
+write_csv(links, '../../shiny_app/links.csv')
 references <- data.frame(form = text.files, references = I(all.references))
+
+references$original_file <- sapply(
+  references$form, function(x) {
+    x <- gsub('(?<!_doc).txt', '.pdf', x, perl = T)
+    x <- gsub('_', '.', x)
+    x <- gsub('.txt', '', x)
+  })
+
 write_excel_csv(references, '../references.csv')
+register <- read_csv('../../shiny_app/register.csv')
+
+sorted_refs <- sapply(
+  register$`File Name`, USE.NAMES = F, FUN = function(f) { references$references[references$original_file == f] }
+)
+
+register$References <- sorted_refs
+
+register$References <- sapply(register$References, FUN = function(r) unlist(r))
+register$References <- I(sapply(register$References, FUN = function(r) unique(r)))
+
+
+write_excel_csv(register, '~/development/forms/shiny_app/register.csv')
+
+
