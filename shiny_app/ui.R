@@ -1,29 +1,32 @@
 library(shiny)
+library(shinyBS)
 
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
+  div(
+    titlePanel("Map all the references to and / or from your favourite HMCTS form")
+  ),
 
   sidebarLayout(
-    fluidRow(
-      column(2,
-        offset = 1,
-        uiOutput("ref_direction")
+    sidebarPanel(
+      fluidRow(
+        h4('What does this thing do?'),
+        p(
+          "Text from each live HMCTS form was mined for references to every other live HMCTS form.
+          Use the controls below to generate a map of these references, starting from one form of interest."
+        ),
+        p(
+          "Node size relates to the number of references to that form."
+        )
       ),
-      column(3,
-        uiOutput("form_choice")
-      ),
-      column(2,
-        uiOutput("iterations")
-      ),
-      column(4,
-        tableOutput("table")
-      )
+      fluidRow(uiOutput("ref_direction")),
+      fluidRow(uiOutput("form_choice")),
+      fluidRow(uiOutput("iterations")),
+      fluidRow(tableOutput("table"))       
     ),
-    fluidRow(
-      column(12,
-      offset = 1,
+    mainPanel(
       tags$div(HTML(
-        '<svg width=1200 height=650 style="border:solid 1px"></svg>'
+        '<svg width=900 height=550 style="border:solid 1px"></svg>'
       )),
       tags$div(id='form-network'),
       tags$script(src="https://d3js.org/d3.v4.min.js"),
@@ -33,7 +36,6 @@ ui <- fluidPage(
           tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
         )
       )
-    ))
+    )
   )
-
 )

@@ -20,3 +20,7 @@ font-family: "Roboto", Roboto, sans-serif;
   stroke: #999;
   stroke-width: 1.5px;
 }
+
+h2 {
+  margin-bottom: 25px;
+}

@@ -24,7 +24,7 @@ shinyServer(
 
     output$form_choice <- renderUI({
       selectInput(inputId = "form_choice",
-                  label = 'each form, working outwards from',
+                  label = 'each form, working out from',
                   choices = sort(forms),
       )
     })
