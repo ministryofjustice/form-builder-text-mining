@@ -1,7 +1,6 @@
 library(tidyverse)
 library(readr)
 library(jsonlite)
-library(optparse)
 
 get_links_to_map <- function(linksdf, forms_of_interest, ref_direction) {
   if(ref_direction == 'to_and_from') {
